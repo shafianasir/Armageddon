@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour {
 
     public int Health = 100;
+    public LevelManager levelManager;
 
     void ApplyDamage()
     {
@@ -21,6 +22,7 @@ public class EnemyHealth : MonoBehaviour {
 
     void Dead()
     {
+        levelManager.ZombieKilled();
         Destroy(gameObject);
     }
 }

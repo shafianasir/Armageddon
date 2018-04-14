@@ -33,10 +33,10 @@ public class controls : MonoBehaviour
             theAnimator.SetBool("Hit02", false);
         }
         
-        if (Input.GetKeyUp(KeyCode.LeftControl))
-        {
-            theAnimator.SetBool("IsRunning", false);
-        }
+        //if (Input.GetKeyUp(KeyCode.LeftControl))
+        //{
+        //  theAnimator.SetBool("IsRunning", false);
+        //}
     }
 
     public void Hit()

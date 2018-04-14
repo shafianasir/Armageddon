@@ -14,7 +14,7 @@ public class PlayerStats : MonoBehaviour {
 
     void ApplyDamage()
     {
-        GameObject Enemy = GameObject.Find("Enemy");
+        GameObject Enemy = GameObject.FindWithTag("Zombie");
         AdvancedAI enemyScript = Enemy.GetComponent<AdvancedAI>();
         Health -= enemyScript.TheDamage;
 
@@ -26,12 +26,11 @@ public class PlayerStats : MonoBehaviour {
 
     void Dead()
     {
-        GameObject Player = GameObject.Find("Player");
-        RespawnMenu menu = Player.GetComponent<RespawnMenu>();
-        menu.playerIsDead = true;
+     //   GameObject Player = GameObject.Find("Player");
+     //   RespawnMenu menu = Player.GetComponent<RespawnMenu>();
+     //   menu.playerIsDead = true;
         Debug.Log("Player died");
-
-        menu.playerIsDead = true;
+     //   menu.playerIsDead = true;
     }
 
     void RespawnStats()

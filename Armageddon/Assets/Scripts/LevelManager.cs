@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour {
 
+    public int levelNo;
+    public int itemsToCollect;
+    public int zombiesLeft;
+
     //private static LevelManager instance;
     //public static LevelManager Instance
     //{
@@ -11,14 +15,9 @@ public class LevelManager : MonoBehaviour {
     //    {
     //        if (instance == null)
     //            instance = FindObjectOfType<LevelManager>();
-
     //        return instance;
     //    }
     //}
-
-    public int levelNo;
-    public int itemsToCollect;
-    public int zombiesLeft;
 
     //private int levelNo;
     //public int LevelNO
@@ -27,7 +26,7 @@ public class LevelManager : MonoBehaviour {
     //    set { levelNo = value; }
     //}
 
-	public void ZombieKilled()
+    public void ZombieKilled()
     {
         zombiesLeft--;
         if(zombiesLeft <= 0)
