@@ -40,8 +40,8 @@ MonoBehaviour:
     y: 423
     width: 761
     height: 212
-  m_MinSize: {x: 104, y: 121}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -67,10 +67,10 @@ MonoBehaviour:
     y: 0
     width: 761
     height: 635
-  m_MinSize: {x: 204, y: 342}
-  m_MaxSize: {x: 4004, y: 8042}
+  m_MinSize: {x: 204, y: 321}
+  m_MaxSize: {x: 4004, y: 8021}
   vertical: 1
-  controlID: 12
+  controlID: 139
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 120
+  controlID: 71
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -213,7 +213,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 11
+  controlID: 45
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -443,9 +443,9 @@ MonoBehaviour:
     height: 291
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 1afcffff00000000
+    m_SelectedIDs: 6ca7fcff
+    m_LastClickedID: -219284
+    m_ExpandedIDs: 9caffcffa8ccfcffb8ccfcffceccfcffdefdfdfff0fdfdff0252feff328cfeff3ea2feff1aa6feff98e5feff224cffff2066ffff4ab6ffff1afcffff00000000609d000022eb000014230100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -548,10 +548,10 @@ MonoBehaviour:
   m_LastProjectPath: C:\Users\shafi_000\Documents\GitHub\Armageddon\Armageddon
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 19}
     m_SelectedIDs: 80260000
     m_LastClickedID: 9856
-    m_ExpandedIDs: 000000008026000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000080260000ee3b0000366100001866000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -606,8 +606,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: 
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: 66640000fa5a0000205c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -737,14 +737,14 @@ MonoBehaviour:
     width: 757
     height: 402
   m_SceneLighting: 1
-  lastFramingTime: 1316.610311041432
+  lastFramingTime: 5407.529270450249
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 176.08, y: 1.69, z: 208.2}
+    m_Target: {x: 365.06854, y: 3.5, z: 371.83856}
     speed: 2
-    m_Value: {x: 176.08, y: 1.69, z: 208.2}
+    m_Value: {x: 365.06854, y: 3.5, z: 371.83856}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -767,13 +767,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.0048696897, y: 0.99363965, z: -0.10201495, w: -0.047431603}
+    m_Target: {x: -0.0031601372, y: 0.99578696, z: -0.03766815, w: -0.08354164}
     speed: 2
-    m_Value: {x: -0.0048696892, y: 0.9936395, z: -0.10201494, w: -0.047431596}
+    m_Value: {x: -0.0031601377, y: 0.9957871, z: -0.037668154, w: -0.08354165}
   m_Size:
-    m_Target: 7.702775
+    m_Target: 7.3734207
     speed: 2
-    m_Value: 7.702775
+    m_Value: 7.3734207
   m_Ortho:
     m_Target: 0
     speed: 2
