@@ -331,6 +331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 100
+  levelManager: {fileID: 0}
 --- !u!114 &73466528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -878,6 +879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 100
+  levelManager: {fileID: 0}
 --- !u!23 &898396626
 MeshRenderer:
   m_ObjectHideFlags: 0
