@@ -18845,7 +18845,22 @@ Prefab:
     - target: {fileID: 114601217822697998, guid: baca1b6d443d55a4095767a0e4ae0587,
         type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114817437790308276, guid: baca1b6d443d55a4095767a0e4ae0587,
+        type: 2}
+      propertyPath: Lives
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114910789000407818, guid: baca1b6d443d55a4095767a0e4ae0587,
+        type: 2}
+      propertyPath: m_WalkSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114910789000407818, guid: baca1b6d443d55a4095767a0e4ae0587,
+        type: 2}
+      propertyPath: m_StepInterval
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: baca1b6d443d55a4095767a0e4ae0587, type: 2}
@@ -41048,7 +41063,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.5, y: 0.5}
-  m_SizeDelta: {x: 16, y: 16}
+  m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2132278251
 MonoBehaviour:

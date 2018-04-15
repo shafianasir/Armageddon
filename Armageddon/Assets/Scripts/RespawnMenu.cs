@@ -9,24 +9,17 @@ public class RespawnMenu : MonoBehaviour {
     public bool playerIsDead = false;
     public Transform respawnTransform;
 
-    void Update()
+    void OnGUI()
     {
         if (playerIsDead)
         {
             FirstPersonController fpc = GetComponent<FirstPersonController>();
             fpc.enabled = false;
-            
-         //   GameObject.Find("Melee").SetActive(false);
-        }
-    }
 
-    void OnGUI()
-    {
-        if (playerIsDead)
-        {
-            GameObject Enemy = GameObject.Find("Enemy");
-            AdvancedAI enemyScript = Enemy.GetComponent<AdvancedAI>();
+            GameObject Zombie = GameObject.FindWithTag("Zombie");
+            AdvancedAI enemyScript = Zombie.GetComponent<AdvancedAI>();
             enemyScript.enabled = false;
+
             if (GUI.Button(new Rect((float)(Screen.width * 0.5 - 50), (float)(Screen.height * 0.5 - 20), 100, 40), "Respawn"))
             {
                 respawnPlayer();

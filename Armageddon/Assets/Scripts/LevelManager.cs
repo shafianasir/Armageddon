@@ -34,7 +34,7 @@ public class LevelManager : MonoBehaviour {
             if (itemsToCollect <= 0)
                 Debug.Log("Level Completed...");
             else
-                Debug.Log("You need to collect " + itemsToCollect + " items.");
+                Debug.Log("You need to collect " + itemsToCollect + " ingredients.");
         }
     }
 
