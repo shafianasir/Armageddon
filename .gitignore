@@ -32,3 +32,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Armageddon/Library/assetDatabase3
+Armageddon/Library/CurrentLayout.dwlt
+*.dwlt
+Armageddon/Library/CurrentLayout.dwlt
