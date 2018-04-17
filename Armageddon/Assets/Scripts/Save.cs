@@ -7,6 +7,8 @@ public class Save : MonoBehaviour {
     public LevelManager levelManager;
     public PlayerStats playerStats;
 
+
+
     public void SavePosition()
     {
         PlayerPrefs.SetFloat("PlayerPosition", transform.position.x);
@@ -32,8 +34,7 @@ public class Save : MonoBehaviour {
 
     public void LoadData()
     {
-        int health = PlayerPrefs.GetInt("Health");
-        playerStats.Health = health;
+		playerStats.Health = PlayerPrefs.GetInt("Health");
         //int level = PlayerPrefs.GetInt("Level");
         //
         int zombies = PlayerPrefs.GetInt("ZombiesToKill");
