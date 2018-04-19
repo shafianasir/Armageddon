@@ -1,0 +1,74 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
+public class LevelManager : MonoBehaviour {
+
+    static int scene = 1;
+    public GameObject endLevelUI;
+
+    //public Level[] levels;
+    //private int currentLevel = 0;
+    //public Text zombiesText;
+
+    public int levelNo;
+    public int itemsToCollect;
+    public int zombiesLeft;
+
+    private void Start()
+	{
+       
+        Debug.Log("level " + scene);
+        //Debug.Log(currentLevel);
+       // zombiesLeft = levels[currentLevel].totalZombies;
+     //   itemsToCollect = levels[currentLevel].totalItems;
+    //	zombiesText.text = "Zombies Left: " + zombiesLeft;
+    }
+
+    public void ZombieKilled()
+    {
+        zombiesLeft--;
+	//	zombiesText.text = "Zombies Left: " + zombiesLeft;
+        if(zombiesLeft <= 0)
+        {
+            if (itemsToCollect <= 0)
+            {
+                Debug.Log("Level Completed...");
+                Time.timeScale = 0f;
+                endLevelUI.SetActive(true);
+            }
+            else
+                Debug.Log("You need to collect " + itemsToCollect + " ingredients.");
+        }
+    }
+
+    public void IngredientCollected(string name)
+    {
+        itemsToCollect--;
+        Debug.Log("You collected: " + name);
+        if (itemsToCollect <= 0)
+        {
+            if (zombiesLeft <= 0)
+            {
+                Debug.Log("Level Completed...");
+                Time.timeScale = 0f;
+                endLevelUI.SetActive(true);
+                //pause scene
+            } 
+            else
+                Debug.Log("You need to kill " + zombiesLeft + " zombies.");
+        }
+    }
+}
+/*
+[Serializable]
+public class Level
+{
+	public int totalZombies;
+    public int totalItems;
+    //	public string levelInfo;
+}
+*/
