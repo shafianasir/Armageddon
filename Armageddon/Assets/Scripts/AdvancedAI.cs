@@ -27,8 +27,8 @@ public class AdvancedAI : MonoBehaviour
     void Update()
     {
         GameObject Player = GameObject.Find("Player");
-        RespawnMenu menu = Player.GetComponent<RespawnMenu>();
-        if (menu.playerIsDead == false)
+        Respawn respawn = Player.GetComponent<Respawn>();
+        if (respawn.playerIsDead == false)
         {
             Distance = Vector3.Distance(Target.position, transform.position);
             if (Distance < lookAtDistance)

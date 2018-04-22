@@ -3,51 +3,43 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 
-	public Level[] levels;
+    static int scene = 1;
+    public GameObject endLevelUI;
+
+    //public Level[] levels;
+    //private int currentLevel = 0;
+    //public Text zombiesText;
 
     public int levelNo;
     public int itemsToCollect;
     public int zombiesLeft;
 
-	private int currentLevel;
-
-	public Text zombiesText;
-
-	private void Start()
+    private void Start()
 	{
-		zombiesLeft = levels [currentLevel].totalZombies;
-		zombiesText.text = "Zombies Left: " + zombiesLeft;
-	}
-
-    //private static LevelManager instance;
-    //public static LevelManager Instance
-    //{
-    //    get
-    //    {
-    //        if (instance == null)
-    //            instance = FindObjectOfType<LevelManager>();
-    //        return instance;
-    //    }
-    //}
-
-    //private int levelNo;
-    //public int LevelNO
-    //{
-    //    get { return levelNo; }
-    //    set { levelNo = value; }
-    //}
+       
+        Debug.Log("level " + scene);
+        //Debug.Log(currentLevel);
+       // zombiesLeft = levels[currentLevel].totalZombies;
+     //   itemsToCollect = levels[currentLevel].totalItems;
+    //	zombiesText.text = "Zombies Left: " + zombiesLeft;
+    }
 
     public void ZombieKilled()
     {
         zombiesLeft--;
-		zombiesText.text = "Zombies Left: " + zombiesLeft;
+	//	zombiesText.text = "Zombies Left: " + zombiesLeft;
         if(zombiesLeft <= 0)
         {
             if (itemsToCollect <= 0)
+            {
                 Debug.Log("Level Completed...");
+                Time.timeScale = 0f;
+                endLevelUI.SetActive(true);
+            }
             else
                 Debug.Log("You need to collect " + itemsToCollect + " ingredients.");
         }
@@ -60,16 +52,23 @@ public class LevelManager : MonoBehaviour {
         if (itemsToCollect <= 0)
         {
             if (zombiesLeft <= 0)
+            {
                 Debug.Log("Level Completed...");
+                Time.timeScale = 0f;
+                endLevelUI.SetActive(true);
+                //pause scene
+            } 
             else
                 Debug.Log("You need to kill " + zombiesLeft + " zombies.");
         }
     }
 }
-
+/*
 [Serializable]
 public class Level
 {
 	public int totalZombies;
-	public string levelInfo;
+    public int totalItems;
+    //	public string levelInfo;
 }
+*/
