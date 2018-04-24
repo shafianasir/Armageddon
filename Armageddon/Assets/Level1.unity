@@ -7405,7 +7405,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!124 &283568365
 Behaviour:
   m_ObjectHideFlags: 0
@@ -8503,7 +8503,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 120}
-  m_SizeDelta: {x: 250, y: 40}
+  m_SizeDelta: {x: 280, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &312422726
 MonoBehaviour:
@@ -16091,7 +16091,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &612231136
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24223,7 +24223,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4087283779711644, guid: baca1b6d443d55a4095767a0e4ae0587, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 377.8
+      value: 357.52
       objectReference: {fileID: 0}
     - target: {fileID: 4087283779711644, guid: baca1b6d443d55a4095767a0e4ae0587, type: 2}
       propertyPath: m_LocalPosition.y
@@ -24231,7 +24231,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4087283779711644, guid: baca1b6d443d55a4095767a0e4ae0587, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 329.9
+      value: 368.76
       objectReference: {fileID: 0}
     - target: {fileID: 4087283779711644, guid: baca1b6d443d55a4095767a0e4ae0587, type: 2}
       propertyPath: m_LocalRotation.x
@@ -24722,11 +24722,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 941319286}
   m_Script: {fileID: 11500000, guid: a19de05b22e462149b17ce84f6a414d8, type: 3}
---- !u!1 &941319288 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1991181975275030, guid: baca1b6d443d55a4095767a0e4ae0587,
-    type: 2}
-  m_PrefabInternal: {fileID: 941319286}
 --- !u!114 &941319289 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114817437790308276, guid: baca1b6d443d55a4095767a0e4ae0587,
@@ -41766,7 +41761,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1607900573}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 375.08, y: 2.09, z: 371.83856}
+  m_LocalPosition: {x: 379.86, y: 2.09, z: 371.83856}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -44237,8 +44232,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 941319288}
-        m_MethodName: 
+      - m_Target: {fileID: 1888151955}
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -48610,6 +48605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseMenuUI: {fileID: 1378572212}
+  savegame: {fileID: 1952446594}
 --- !u!114 &1888151956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50588,6 +50584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1952446593}
   - component: {fileID: 1952446592}
+  - component: {fileID: 1952446594}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -50607,6 +50604,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endLevelUI: {fileID: 702673049}
+  savegame: {fileID: 1952446594}
   levelNo: 1
   itemsToCollect: 1
   zombiesLeft: 1
@@ -50623,6 +50621,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1952446594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1952446591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f68c0bd616819c44807c2d07d6370a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 1952446592}
+  playerStats: {fileID: 941319289}
+  menu: {fileID: 1888151955}
 --- !u!4 &1952753689 stripped
 Transform:
   m_PrefabParentObject: {fileID: 462012, guid: 679f8552de7b49e49b067c82f87df7c1, type: 2}
@@ -54376,8 +54388,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 941319288}
-        m_MethodName: 
+      - m_Target: {fileID: 1888151955}
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

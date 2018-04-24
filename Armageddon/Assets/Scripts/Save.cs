@@ -6,8 +6,7 @@ public class Save : MonoBehaviour {
 
     public LevelManager levelManager;
     public PlayerStats playerStats;
-
-
+    public PauseMenu menu;
 
     public void SavePosition()
     {
@@ -18,6 +17,8 @@ public class Save : MonoBehaviour {
 
     public void SaveData()
     {
+        Debug.Log("Saving...");
+        PlayerPrefs.SetInt("Lives", playerStats.Lives);
         PlayerPrefs.SetInt("Health", playerStats.Health);
         PlayerPrefs.SetInt("Level", levelManager.levelNo);
         PlayerPrefs.SetInt("ZombiesToKill", levelManager.zombiesLeft);
@@ -34,12 +35,12 @@ public class Save : MonoBehaviour {
 
     public void LoadData()
     {
-		playerStats.Health = PlayerPrefs.GetInt("Health");
+        menu.Resume();
+        playerStats.Lives = PlayerPrefs.GetInt("Lives");
+        playerStats.Health = PlayerPrefs.GetInt("Health");
         //int level = PlayerPrefs.GetInt("Level");
-        //
-        int zombies = PlayerPrefs.GetInt("ZombiesToKill");
-        levelManager.zombiesLeft = zombies;
-        int items = PlayerPrefs.GetInt("ItemsToCollect");
-        levelManager.itemsToCollect = items;
+        levelManager.zombiesLeft = PlayerPrefs.GetInt("ZombiesToKill");
+        levelManager.itemsToCollect = PlayerPrefs.GetInt("ItemsToCollect");
+        Debug.Log("Loading...");
     }
 }

@@ -7,6 +7,7 @@ public class PauseMenu : MonoBehaviour {
 
     public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
+    public Save savegame;
 
     private void Update()
     {
@@ -45,6 +46,7 @@ public class PauseMenu : MonoBehaviour {
     public void QuitGame()
     {
         Debug.Log("Quitting");
+        savegame.SaveData();
     }
 
     public void NextLevel()

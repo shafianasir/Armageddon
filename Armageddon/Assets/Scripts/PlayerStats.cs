@@ -15,6 +15,7 @@ public class PlayerStats : MonoBehaviour {
 
     private void Start()
     {
+        //check save
         Lives = MaxLives;
         Health = MaxHealth;
     }
@@ -36,7 +37,7 @@ public class PlayerStats : MonoBehaviour {
         //     GameObject Player = GameObject.Find("Player");
         //   RespawnMenu menu = Player.GetComponent<RespawnMenu>();
         // menu.playerIsDead = true;
-
+        Lives--;
         FirstPersonController fpc = GetComponent<FirstPersonController>();
         fpc.enabled = false;
         GameObject Zombie = GameObject.FindWithTag("Zombie");

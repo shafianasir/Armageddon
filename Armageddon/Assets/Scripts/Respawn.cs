@@ -7,7 +7,7 @@ public class Respawn : MonoBehaviour {
 
     public bool playerIsDead = false;
     public Transform respawnTransform;
-    public PlayerStats playerStats;
+   // public PlayerStats playerStats;
     public GameObject MenuUI;
     
 
@@ -27,7 +27,7 @@ public class Respawn : MonoBehaviour {
     public void RespawnPlayer()
     {
         MenuUI.SetActive(false);
-        playerStats.Lives--;
+     //   playerStats.Lives--;
 
         transform.position = respawnTransform.position;
         transform.rotation = respawnTransform.rotation;
