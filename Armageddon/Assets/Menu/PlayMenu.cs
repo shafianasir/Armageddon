@@ -12,7 +12,9 @@ public class PlayMenu : MonoBehaviour {
         if (PlayerPrefs.HasKey("Level"))
         {
             Level = PlayerPrefs.GetInt("Level");
-            switch (Level)
+            SceneManager.LoadScene("Level" + Level);
+            Debug.Log("Loading Level" + Level);
+       /*     switch (Level)
             {
                 case 1:
                     SceneManager.LoadScene("Level1");
@@ -25,14 +27,14 @@ public class PlayMenu : MonoBehaviour {
                 default:
                     SceneManager.LoadScene("Level1");
                     break;
-            }
+            } */
         }
     }
 
     public void NewGame()
     {
         PlayerPrefs.DeleteAll();
-        Debug.Log("New Game");
+        Debug.Log("Starting New Game");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

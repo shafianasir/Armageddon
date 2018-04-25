@@ -34,9 +34,9 @@ public class PlayerStats : MonoBehaviour {
 
     void Dead()
     {
-        //     GameObject Player = GameObject.Find("Player");
-        //   RespawnMenu menu = Player.GetComponent<RespawnMenu>();
-        // menu.playerIsDead = true;
+        //GameObject Player = GameObject.Find("Player");
+        //RespawnMenu menu = Player.GetComponent<RespawnMenu>();
+        //menu.playerIsDead = true;
         Lives--;
         FirstPersonController fpc = GetComponent<FirstPersonController>();
         fpc.enabled = false;
@@ -53,6 +53,9 @@ public class PlayerStats : MonoBehaviour {
         {
             Debug.Log("You lost all lives! Restart Game");
             FailUI.SetActive(true);
+            GameObject.Find("Player").SetActive(false);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             //Restart Game
         }
     }

@@ -7,14 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 
-   // static int scene = 1;
     public GameObject endLevelUI;
     public Save savegame;
-
-    //public Level[] levels;
-    //private int currentLevel = 0;
     //public Text zombiesText;
-
     public int levelNo;
     public int itemsToCollect;
     public int zombiesLeft;
@@ -40,6 +35,8 @@ public class LevelManager : MonoBehaviour {
             {
                 Debug.Log("Level Completed...");
                 endLevelUI.SetActive(true);
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
             }
             else
                 Debug.Log("You need to collect " + itemsToCollect + " ingredients.");
@@ -56,6 +53,8 @@ public class LevelManager : MonoBehaviour {
             {
                 Debug.Log("Level Completed...");
                 endLevelUI.SetActive(true);
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
             } 
             else
                 Debug.Log("You need to kill " + zombiesLeft + " zombies.");
