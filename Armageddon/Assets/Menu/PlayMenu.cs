@@ -24,6 +24,7 @@ public class PlayMenu : MonoBehaviour {
     {
         PlayerPrefs.DeleteAll();
         Debug.Log("Starting New Game");
+        //SceneManager.LoadScene("Level1");
     }
 
     public void OnClicked(Button level)
@@ -34,7 +35,12 @@ public class PlayMenu : MonoBehaviour {
 
     public void LoadLevel()
     {
-        Unlocked = PlayerPrefs.GetInt("Level");
+        if (PlayerPrefs.HasKey("Level"))
+        {
+            Unlocked = PlayerPrefs.GetInt("Level");
+        }
+        else
+            Unlocked = 1;
 
         for(int i=Unlocked; i>0; i--)
         {
