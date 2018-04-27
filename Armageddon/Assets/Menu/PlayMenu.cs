@@ -2,39 +2,46 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class PlayMenu : MonoBehaviour {
 
+    int Unlocked;
     int Level;
+
+    GameObject myButton;
 
     public void LoadGame()
     {
-        if (PlayerPrefs.HasKey("Level"))
-        {
-            Level = PlayerPrefs.GetInt("Level");
-            SceneManager.LoadScene("Level" + Level);
-            Debug.Log("Loading Level" + Level);
-       /*     switch (Level)
-            {
-                case 1:
-                    SceneManager.LoadScene("Level1");
-                    Debug.Log("Loading Level 1");
-                    break;
-                case 2:
-                    //  SceneManager.LoadScene("Level2");
-                    Debug.Log("Loading Level 2");
-                    break;
-                default:
-                    SceneManager.LoadScene("Level1");
-                    break;
-            } */
-        }
+        //EventSystem.current.currentSelectedGameObject.name();
+        //Unlocked = PlayerPrefs.GetInt("Level");
+        //SceneManager.LoadScene("Level" + Unlocked);
+        //Debug.Log("Loading Level" + Unlocked);
     }
 
     public void NewGame()
     {
         PlayerPrefs.DeleteAll();
         Debug.Log("Starting New Game");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void OnClicked(Button level)
+    {
+        Debug.Log("Loading Level" + level.name);
+        SceneManager.LoadScene("Level" + level.name);
+    }
+
+    public void LoadLevel()
+    {
+        Unlocked = PlayerPrefs.GetInt("Level");
+
+        for(int i=Unlocked; i>0; i--)
+        {
+            Debug.Log(i);
+            string str = i.ToString();
+            myButton = GameObject.Find(str);
+            myButton.GetComponent<Button>().interactable = true;
+        }
     }
 }

@@ -16,10 +16,10 @@ public class LevelManager : MonoBehaviour {
 
     private void Start()
 	{
-        if (PlayerPrefs.HasKey("Level"))
+     /*   if (PlayerPrefs.HasKey("Level"))
         {
             savegame.LoadData();
-        }
+        } */
         // zombiesLeft = levels[currentLevel].totalZombies;
         //   itemsToCollect = levels[currentLevel].totalItems;
         //	zombiesText.text = "Zombies Left: " + zombiesLeft;
@@ -34,6 +34,8 @@ public class LevelManager : MonoBehaviour {
             if (itemsToCollect <= 0)
             {
                 Debug.Log("Level Completed...");
+                levelNo++;
+                savegame.SaveData();
                 endLevelUI.SetActive(true);
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
@@ -52,6 +54,8 @@ public class LevelManager : MonoBehaviour {
             if (zombiesLeft <= 0)
             {
                 Debug.Log("Level Completed...");
+                levelNo++;
+                savegame.SaveData();
                 endLevelUI.SetActive(true);
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
