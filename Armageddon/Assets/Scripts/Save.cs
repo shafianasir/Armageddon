@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class Save : MonoBehaviour {
 
-    public LevelManager levelManager;
-    public PlayerStats playerStats;
-    public PauseMenu menu;
-
     public void SaveData(string level)
     {
         if (level == "1")

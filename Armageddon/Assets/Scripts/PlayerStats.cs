@@ -12,7 +12,6 @@ public class PlayerStats : MonoBehaviour {
 
     public GameObject RetryUI;
     public GameObject FailUI;
-    public PauseMenu PM;
 
     private void Start()
     {
@@ -50,6 +49,9 @@ public class PlayerStats : MonoBehaviour {
         {
             RetryUI.SetActive(true);
             Time.timeScale = 0f;
+
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
         else
         {
@@ -57,6 +59,7 @@ public class PlayerStats : MonoBehaviour {
             FailUI.SetActive(true);
             Time.timeScale = 0f;
             GameObject.Find("Player").SetActive(false);
+
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
             //Restart Game
