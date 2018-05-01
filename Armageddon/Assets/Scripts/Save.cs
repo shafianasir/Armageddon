@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class Save : MonoBehaviour {
 
-    public LevelManager levelManager;
-    public PlayerStats playerStats;
-    public PauseMenu menu;
-
     public void SaveData(string level)
     {
         if (level == "1")
@@ -36,11 +32,5 @@ public class Save : MonoBehaviour {
             PlayerPrefs.SetString("L5", "completed");
         }
         //PlayerPrefs.SetInt("Level", levelManager.levelNo);
-    }
-
-    public void LoadData()
-    {
-        menu.Resume();
-        Debug.Log("Loading...");
     }
 }

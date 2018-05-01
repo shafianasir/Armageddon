@@ -9,7 +9,6 @@ public class PlayMenu : MonoBehaviour {
 
     int Unlocked;
     int Level;
-
     GameObject myButton;
 
     public void LoadGame()
