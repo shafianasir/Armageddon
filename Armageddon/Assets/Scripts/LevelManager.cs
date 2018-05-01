@@ -33,12 +33,7 @@ public class LevelManager : MonoBehaviour {
         {
             if (itemsToCollect <= 0)
             {
-                Debug.Log("Level Completed...");
-                levelNo++;
-                savegame.SaveData();
-                endLevelUI.SetActive(true);
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
+                LevelCompleted();
             }
             else
                 Debug.Log("You need to collect " + itemsToCollect + " ingredients.");
@@ -53,16 +48,21 @@ public class LevelManager : MonoBehaviour {
         {
             if (zombiesLeft <= 0)
             {
-                Debug.Log("Level Completed...");
-                levelNo++;
-                savegame.SaveData();
-                endLevelUI.SetActive(true);
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
+                LevelCompleted();
             } 
             else
                 Debug.Log("You need to kill " + zombiesLeft + " zombies.");
         }
+    }
+
+    void LevelCompleted()
+    {
+        Debug.Log("Level Completed...");
+        levelNo++;
+        savegame.SaveData();
+        endLevelUI.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }
 /*
