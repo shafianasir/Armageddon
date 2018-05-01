@@ -27,14 +27,39 @@ public class PlayMenu : MonoBehaviour {
         //SceneManager.LoadScene("Level1");
     }
 
-    public void OnClicked(Button level)
+    public void OnClicked(Button levelButton)
     {
-        Debug.Log("Loading Level" + level.name);
-        SceneManager.LoadScene("Level" + level.name);
+        Debug.Log("Loading Level" + levelButton.name);
+        SceneManager.LoadScene("Level" + levelButton.name);
     }
 
     public void LoadLevel()
     {
+        myButton = GameObject.Find("1");
+        myButton.GetComponent<Button>().interactable = true;
+
+        if (PlayerPrefs.HasKey("L1"))
+        {
+            myButton = GameObject.Find("2");
+            myButton.GetComponent<Button>().interactable = true;
+        }
+        if (PlayerPrefs.HasKey("L2"))
+        {
+            myButton = GameObject.Find("3");
+            myButton.GetComponent<Button>().interactable = true;
+        }
+        if (PlayerPrefs.HasKey("L3"))
+        {
+            myButton = GameObject.Find("4");
+            myButton.GetComponent<Button>().interactable = true;
+        }
+        if (PlayerPrefs.HasKey("L4"))
+        {
+            myButton = GameObject.Find("5");
+            myButton.GetComponent<Button>().interactable = true;
+        }
+
+        /*
         if (PlayerPrefs.HasKey("Level"))
         {
             Unlocked = PlayerPrefs.GetInt("Level");
@@ -49,5 +74,6 @@ public class PlayMenu : MonoBehaviour {
             myButton = GameObject.Find(str);
             myButton.GetComponent<Button>().interactable = true;
         }
+        */
     }
 }
