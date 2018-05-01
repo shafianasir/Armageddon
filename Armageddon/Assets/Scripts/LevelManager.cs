@@ -60,7 +60,6 @@ public class LevelManager : MonoBehaviour {
         savegame.SaveData(lvl);
 
         endLevelUI.SetActive(true);
-        GameObject.Find("Player").SetActive(false);
         //Time.timeScale = 0f;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
