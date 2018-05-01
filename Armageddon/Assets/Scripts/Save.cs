@@ -8,23 +8,39 @@ public class Save : MonoBehaviour {
     public PlayerStats playerStats;
     public PauseMenu menu;
 
-    public void SaveData()
+    public void SaveData(string level)
     {
-        Debug.Log("Saving...");
-    //    PlayerPrefs.SetInt("Lives", playerStats.Lives);
-    //    PlayerPrefs.SetInt("Health", playerStats.Health);
-        PlayerPrefs.SetInt("Level", levelManager.levelNo);
-    //    PlayerPrefs.SetInt("ZombiesToKill", levelManager.zombiesLeft);
-    //    PlayerPrefs.SetInt("ItemsToCollect", levelManager.itemsToCollect);
+        if (level == "1")
+        {
+            Debug.Log("Saving..." + level);
+            PlayerPrefs.SetString("L1", "completed");
+        }
+        if (level == "2")
+        {
+            Debug.Log("Saving..." + level);
+            PlayerPrefs.SetString("L2", "completed");
+        }
+        if (level == "3")
+        {
+            Debug.Log("Saving..." + level);
+            PlayerPrefs.SetString("L3", "completed");
+        }
+        if (level == "4")
+        {
+            Debug.Log("Saving..." + level);
+            PlayerPrefs.SetString("L4", "completed");
+        }
+        if (level == "5")
+        {
+            Debug.Log("Saving..." + level);
+            PlayerPrefs.SetString("L5", "completed");
+        }
+        //PlayerPrefs.SetInt("Level", levelManager.levelNo);
     }
 
     public void LoadData()
     {
         menu.Resume();
-     //   playerStats.Lives = PlayerPrefs.GetInt("Lives");
-     //   playerStats.Health = PlayerPrefs.GetInt("Health");
-     //   levelManager.zombiesLeft = PlayerPrefs.GetInt("ZombiesToKill");
-     //   levelManager.itemsToCollect = PlayerPrefs.GetInt("ItemsToCollect");
         Debug.Log("Loading...");
     }
 }
