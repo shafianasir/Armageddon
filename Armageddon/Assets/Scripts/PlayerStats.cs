@@ -10,10 +10,12 @@ public class PlayerStats : MonoBehaviour {
     public int MaxHealth = 100;
     public int Health;
 
-    public GameObject MenuUI;
+    public GameObject RetryUI;
+    public GameObject FailUI;
 
     private void Start()
     {
+        //check save
         Lives = MaxLives;
         Health = MaxHealth;
     }
@@ -26,17 +28,16 @@ public class PlayerStats : MonoBehaviour {
 
         if (Health <= 0)
         {
-         //   Lives--;
             Dead();
         }
     }
 
     void Dead()
     {
-        //     GameObject Player = GameObject.Find("Player");
-        //   RespawnMenu menu = Player.GetComponent<RespawnMenu>();
-        // menu.playerIsDead = true;
-
+        //GameObject Player = GameObject.Find("Player");
+        //RespawnMenu menu = Player.GetComponent<RespawnMenu>();
+        //menu.playerIsDead = true;
+        Lives--;
         FirstPersonController fpc = GetComponent<FirstPersonController>();
         fpc.enabled = false;
         GameObject Zombie = GameObject.FindWithTag("Zombie");
@@ -46,11 +47,17 @@ public class PlayerStats : MonoBehaviour {
 
         if (Lives > 0)
         {
-            MenuUI.SetActive(true);
+            RetryUI.SetActive(true);
         }
         else
+        {
             Debug.Log("You lost all lives! Restart Game");
+            FailUI.SetActive(true);
+            GameObject.Find("Player").SetActive(false);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             //Restart Game
+        }
     }
 
     void RespawnStats()

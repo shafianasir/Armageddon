@@ -7,25 +7,22 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 
-    static int scene = 1;
     public GameObject endLevelUI;
-
-    //public Level[] levels;
-    //private int currentLevel = 0;
+    public Save savegame;
     //public Text zombiesText;
-
     public int levelNo;
     public int itemsToCollect;
     public int zombiesLeft;
 
     private void Start()
 	{
-       
-        Debug.Log("level " + scene);
-        //Debug.Log(currentLevel);
-       // zombiesLeft = levels[currentLevel].totalZombies;
-     //   itemsToCollect = levels[currentLevel].totalItems;
-    //	zombiesText.text = "Zombies Left: " + zombiesLeft;
+        if (PlayerPrefs.HasKey("Level"))
+        {
+            savegame.LoadData();
+        }
+        // zombiesLeft = levels[currentLevel].totalZombies;
+        //   itemsToCollect = levels[currentLevel].totalItems;
+        //	zombiesText.text = "Zombies Left: " + zombiesLeft;
     }
 
     public void ZombieKilled()
@@ -37,8 +34,9 @@ public class LevelManager : MonoBehaviour {
             if (itemsToCollect <= 0)
             {
                 Debug.Log("Level Completed...");
-                Time.timeScale = 0f;
                 endLevelUI.SetActive(true);
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
             }
             else
                 Debug.Log("You need to collect " + itemsToCollect + " ingredients.");
@@ -54,9 +52,9 @@ public class LevelManager : MonoBehaviour {
             if (zombiesLeft <= 0)
             {
                 Debug.Log("Level Completed...");
-                Time.timeScale = 0f;
                 endLevelUI.SetActive(true);
-                //pause scene
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
             } 
             else
                 Debug.Log("You need to kill " + zombiesLeft + " zombies.");

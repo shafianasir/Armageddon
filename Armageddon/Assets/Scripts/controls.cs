@@ -32,11 +32,6 @@ public class controls : MonoBehaviour
             Hit();
             theAnimator.SetBool("Hit02", false);
         }
-        
-        //if (Input.GetKeyUp(KeyCode.LeftControl))
-        //{
-        //  theAnimator.SetBool("IsRunning", false);
-        //}
     }
 
     public void Hit()
@@ -47,7 +42,7 @@ public class controls : MonoBehaviour
             Distance = hit.distance;
             if (Distance < MaxDistance)
             {
-                Debug.Log("Hitting: " + hit.transform.name);
+                //Debug.Log("Hitting: " + hit.transform.name);
                 hit.transform.SendMessage("ApplyDamage", TheDamage, SendMessageOptions.DontRequireReceiver);
             }
         }
