@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class PauseMenu : MonoBehaviour {
 
     public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
-    public Save savegame;
 
     private void Update()
     {
@@ -15,10 +15,12 @@ public class PauseMenu : MonoBehaviour {
         {
             if (GameIsPaused)
             {
+                PauseMenuUI.SetActive(false);
                 Resume();
             }
             else
             {
+                PauseMenuUI.SetActive(true);
                 Pause();
             }
         }
@@ -26,14 +28,12 @@ public class PauseMenu : MonoBehaviour {
 
     public void Resume()
     {
-        PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
 
-    void Pause()
+    public void Pause()
     {
-        PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
     }

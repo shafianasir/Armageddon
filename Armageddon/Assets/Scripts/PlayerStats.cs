@@ -12,10 +12,10 @@ public class PlayerStats : MonoBehaviour {
 
     public GameObject RetryUI;
     public GameObject FailUI;
+    public PauseMenu PM;
 
     private void Start()
     {
-        //check save
         Lives = MaxLives;
         Health = MaxHealth;
     }
@@ -38,6 +38,7 @@ public class PlayerStats : MonoBehaviour {
         //RespawnMenu menu = Player.GetComponent<RespawnMenu>();
         //menu.playerIsDead = true;
         Lives--;
+        
         FirstPersonController fpc = GetComponent<FirstPersonController>();
         fpc.enabled = false;
         GameObject Zombie = GameObject.FindWithTag("Zombie");
@@ -48,11 +49,13 @@ public class PlayerStats : MonoBehaviour {
         if (Lives > 0)
         {
             RetryUI.SetActive(true);
+            Time.timeScale = 0f;
         }
         else
         {
             Debug.Log("You lost all lives! Restart Game");
             FailUI.SetActive(true);
+            Time.timeScale = 0f;
             GameObject.Find("Player").SetActive(false);
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;

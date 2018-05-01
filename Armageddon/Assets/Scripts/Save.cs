@@ -37,10 +37,4 @@ public class Save : MonoBehaviour {
         }
         //PlayerPrefs.SetInt("Level", levelManager.levelNo);
     }
-
-    public void LoadData()
-    {
-        menu.Resume();
-        Debug.Log("Loading...");
-    }
 }

@@ -9,7 +9,6 @@ public class LevelManager : MonoBehaviour {
 
     public GameObject endLevelUI;
     public Save savegame;
-    Scene scene;
 
     //public Text zombiesText;
     public int levelNo;
@@ -18,7 +17,7 @@ public class LevelManager : MonoBehaviour {
 
     private void Start()
 	{
-     
+        Time.timeScale = 1f;
     }
 
     public void ZombieKilled()
@@ -53,17 +52,15 @@ public class LevelManager : MonoBehaviour {
 
     void LevelCompleted()
     {
-        scene = SceneManager.GetActiveScene();
         Debug.Log("Level Completed...");
-        Debug.Log(scene.name);
+        Scene scene = SceneManager.GetActiveScene();
         string l = scene.name;
         char last = l[l.Length - 1];
-        Debug.Log(last);
         String lvl = last.ToString();
-
-        //levelNo++;
         savegame.SaveData(lvl);
+
         endLevelUI.SetActive(true);
+        //Time.timeScale = 0f;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
