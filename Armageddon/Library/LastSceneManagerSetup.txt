@@ -1,4 +1,14 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> c57ed88cd2d951f70806db5db5bcdb444353443c
 sceneSetups:
 - path: Assets/Scenes/Level1.unity
   isLoaded: 1
   isActive: 1
+<<<<<<< HEAD
+=======
+=======
+sceneSetups: []
+>>>>>>> 88aa175c3e18cff09e987a9bb43f643509cc10a6
+>>>>>>> c57ed88cd2d951f70806db5db5bcdb444353443c
