@@ -42,7 +42,6 @@ public class controls : MonoBehaviour
             Distance = hit.distance;
             if (Distance < MaxDistance)
             {
-                //Debug.Log("Hitting: " + hit.transform.name);
                 hit.transform.SendMessage("ApplyDamage", TheDamage, SendMessageOptions.DontRequireReceiver);
             }
         }

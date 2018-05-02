@@ -17,14 +17,18 @@ public class Respawn : MonoBehaviour {
         transform.position = respawnTransform.position;
         transform.rotation = respawnTransform.rotation;
         gameObject.SendMessage("RespawnStats");
-        
+
+        GameObject Zombie = GameObject.FindWithTag("Zombie");
+        Animator Anim = Zombie.GetComponent<Animator>();
+        Anim.SetBool("Hit", false);
+
         FirstPersonController fpc = GetComponent<FirstPersonController>();
         fpc.enabled = true;
         playerIsDead = false;
         Debug.Log("Player has respawned");
 
-        GameObject Zombie = GameObject.FindWithTag("Zombie");
-        AdvancedAI enemyScript = Zombie.GetComponent<AdvancedAI>();
+        GameObject ZombieAnim = GameObject.FindWithTag("Zombie");
+        AdvancedAI enemyScript = ZombieAnim.GetComponent<AdvancedAI>();
         enemyScript.enabled = true;
     }
 }
