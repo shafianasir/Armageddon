@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour {
 
+    public Animator theAnimator;
     public int Health = 100;
     public LevelManager levelManager;
 
@@ -16,6 +17,7 @@ public class EnemyHealth : MonoBehaviour {
 
         if (Health <= 0)
         {
+            theAnimator.SetBool("Die", true);
             Dead();
         }
     }
@@ -24,6 +26,7 @@ public class EnemyHealth : MonoBehaviour {
     {
         levelManager.ZombieKilled();
         Destroy(gameObject);
+        //or disable enemy script
     }
 }
 

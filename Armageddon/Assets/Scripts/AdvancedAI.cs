@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class AdvancedAI : MonoBehaviour
 {
+    public Animator theAnimator;
+    public CharacterController controller;
+    public Transform Target;
 
     public float Distance;
-    public Transform Target;
     public float lookAtDistance = 25.0f;
     public float chaseRange = 15.0f;
     public float attackRange = 8.0f;
@@ -14,7 +16,6 @@ public class AdvancedAI : MonoBehaviour
     private float attackTime;
     public float moveSpeed = 2.0f;
     public float Damping = 6.0f; //rotation speed
-    public CharacterController controller;
     public float gravity = 20.0f;
     private Vector3 moveDirection = Vector3.zero;
     public int TheDamage = 20;
@@ -56,6 +57,8 @@ public class AdvancedAI : MonoBehaviour
 
     void Chase()
     {
+        theAnimator.SetBool("Hit", false);
+        theAnimator.SetBool("Move", true);
         transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
 
         moveDirection = transform.forward;
@@ -69,6 +72,8 @@ public class AdvancedAI : MonoBehaviour
     {
         if (Time.time > attackTime)
         {
+            theAnimator.SetBool("Move", false);
+            theAnimator.SetBool("Hit", true);
             Target.SendMessage("ApplyDamage", TheDamage, SendMessageOptions.DontRequireReceiver);
             Debug.Log("Enemy attacking");
             attackTime = Time.time + attackRepeatTime;
