@@ -9,8 +9,8 @@ public class LevelManager : MonoBehaviour {
 
     public GameObject endLevelUI;
     public Save savegame;
+    public Text TextUI;
 
-    //public Text zombiesText;
     public int levelNo;
     public int itemsToCollect;
     public int zombiesLeft;
@@ -23,8 +23,9 @@ public class LevelManager : MonoBehaviour {
     public void ZombieKilled()
     {
         zombiesLeft--;
-	//	zombiesText.text = "Zombies Left: " + zombiesLeft;
-        if(zombiesLeft <= 0)
+        TextUI.text = " ";
+
+        if (zombiesLeft <= 0)
         {
             if (itemsToCollect <= 0)
             {
@@ -38,7 +39,8 @@ public class LevelManager : MonoBehaviour {
     public void IngredientCollected(string name)
     {
         itemsToCollect--;
-        Debug.Log("You collected: " + name);
+       // Debug.Log("You collected: " + name);
+        TextUI.text = "Ingredients left = " + itemsToCollect;
         if (itemsToCollect <= 0)
         {
             if (zombiesLeft <= 0)
@@ -65,12 +67,3 @@ public class LevelManager : MonoBehaviour {
         Cursor.visible = true;
     }
 }
-/*
-[Serializable]
-public class Level
-{
-	public int totalZombies;
-    public int totalItems;
-    //	public string levelInfo;
-}
-*/

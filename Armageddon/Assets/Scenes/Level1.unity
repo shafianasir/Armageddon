@@ -7877,7 +7877,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!124 &283568365
 Behaviour:
   m_ObjectHideFlags: 0
@@ -7934,13 +7934,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 283568363}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.00961857, y: -0.69459015, z: 0.7192815, w: 0.009288315}
+  m_LocalPosition: {x: 238, y: 227, z: 338}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 92.00101, y: -178.468, z: -0.000015258789}
 --- !u!4 &283739876 stripped
 Transform:
   m_PrefabParentObject: {fileID: 470378, guid: f4aca82b3eac5a94789604361eba1c01, type: 2}
@@ -18140,7 +18140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &654930698
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20539,6 +20539,10 @@ Prefab:
     - target: {fileID: 152384, guid: f5466645e7a397f4e908d8d5a210846e, type: 2}
       propertyPath: m_Name
       value: Ingredient2
+      objectReference: {fileID: 0}
+    - target: {fileID: 152384, guid: f5466645e7a397f4e908d8d5a210846e, type: 2}
+      propertyPath: m_TagString
+      value: Ingredient
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f5466645e7a397f4e908d8d5a210846e, type: 2}
@@ -25720,6 +25724,11 @@ Prefab:
       propertyPath: RetryUI
       value: 
       objectReference: {fileID: 1064952437}
+    - target: {fileID: 114817437790308276, guid: baca1b6d443d55a4095767a0e4ae0587,
+        type: 2}
+      propertyPath: TextUI
+      value: 
+      objectReference: {fileID: 1489015396}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: baca1b6d443d55a4095767a0e4ae0587, type: 2}
   m_IsPrefabParent: 0
@@ -40367,7 +40376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -311, y: 139}
+  m_AnchoredPosition: {x: 0, y: -148}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1489015396
@@ -40382,7 +40391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -40402,7 +40411,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 
 --- !u!222 &1489015397
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -41751,6 +41760,10 @@ Prefab:
     - target: {fileID: 133258, guid: 455fde9ad8c444347a6b6e94ae37f645, type: 2}
       propertyPath: m_Name
       value: Ingredient3
+      objectReference: {fileID: 0}
+    - target: {fileID: 133258, guid: 455fde9ad8c444347a6b6e94ae37f645, type: 2}
+      propertyPath: m_TagString
+      value: Ingredient
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 455fde9ad8c444347a6b6e94ae37f645, type: 2}
@@ -52272,6 +52285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   endLevelUI: {fileID: 702673049}
   savegame: {fileID: 1952446594}
+  TextUI: {fileID: 1489015396}
   levelNo: 1
   itemsToCollect: 3
   zombiesLeft: 1

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour {
 
@@ -12,6 +13,7 @@ public class PlayerStats : MonoBehaviour {
 
     public GameObject RetryUI;
     public GameObject FailUI;
+    public Text TextUI;
 
     private void Start()
     {
@@ -37,7 +39,8 @@ public class PlayerStats : MonoBehaviour {
         //RespawnMenu menu = Player.GetComponent<RespawnMenu>();
         //menu.playerIsDead = true;
         Lives--;
-        
+        TextUI.text = "Lives left = " + Lives;
+
         FirstPersonController fpc = GetComponent<FirstPersonController>();
         fpc.enabled = false;
         GameObject Zombie = GameObject.FindWithTag("Zombie");
