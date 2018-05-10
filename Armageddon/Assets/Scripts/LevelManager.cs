@@ -10,6 +10,7 @@ public class LevelManager : MonoBehaviour {
     public GameObject endLevelUI;
     public Save savegame;
     public Text TextUI;
+    //public Text Text1;
 
     public int levelNo;
     public int itemsToCollect;
@@ -18,12 +19,27 @@ public class LevelManager : MonoBehaviour {
     private void Start()
 	{
         Time.timeScale = 1f;
+        //GameObject.Find("InGamePanel").SetActive(true);
+        //Text1.GetComponent.< Text > ().enabled = true;
+        GameObject Text1 = GameObject.Find("info1");
+        Text txt = Text1.GetComponent<Text>();
+        txt.enabled = true;
+    }
+
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            TextUI.text = " ";
+            GameObject Text1 = GameObject.Find("info1");
+            Text txt = Text1.GetComponent<Text>();
+            txt.enabled = false;
+        }
     }
 
     public void ZombieKilled()
     {
         zombiesLeft--;
-        TextUI.text = " ";
 
         if (zombiesLeft <= 0)
         {

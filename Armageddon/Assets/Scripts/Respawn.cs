@@ -2,15 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.UI;
 
 public class Respawn : MonoBehaviour {
 
     public bool playerIsDead = false;
     public Transform respawnTransform;
     public GameObject MenuUI;
-     
+    public Text Lives; 
+    public PlayerStats player;
+
     public void RespawnPlayer()
     {
+        int l = player.Lives;
+        string str = l.ToString();
+        Lives.text =str;
+
         MenuUI.SetActive(false);
         Time.timeScale = 1f;
 
