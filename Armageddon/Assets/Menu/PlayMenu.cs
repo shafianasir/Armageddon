@@ -11,14 +11,6 @@ public class PlayMenu : MonoBehaviour {
     int Level;
     GameObject myButton;
 
-    public void LoadGame()
-    {
-        //EventSystem.current.currentSelectedGameObject.name();
-        //Unlocked = PlayerPrefs.GetInt("Level");
-        //SceneManager.LoadScene("Level" + Unlocked);
-        //Debug.Log("Loading Level" + Unlocked);
-    }
-
     public void NewGame()
     {
         PlayerPrefs.DeleteAll();
@@ -57,22 +49,5 @@ public class PlayMenu : MonoBehaviour {
             myButton = GameObject.Find("5");
             myButton.GetComponent<Button>().interactable = true;
         }
-
-        /*
-        if (PlayerPrefs.HasKey("Level"))
-        {
-            Unlocked = PlayerPrefs.GetInt("Level");
-        }
-        else
-            Unlocked = 1;
-
-        for(int i=Unlocked; i>0; i--)
-        {
-            Debug.Log(i);
-            string str = i.ToString();
-            myButton = GameObject.Find(str);
-            myButton.GetComponent<Button>().interactable = true;
-        }
-        */
     }
 }
