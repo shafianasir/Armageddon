@@ -7,7 +7,8 @@ public class LevelManager : MonoBehaviour {
 
     public GameObject endLevelUI;
     public Save saveGame;
-    public GameObject text1;
+    public GameObject text;
+    public Transform respawnTransform;
 
     public int levelNo;
     public int itemsToCollect;
@@ -16,7 +17,8 @@ public class LevelManager : MonoBehaviour {
     private void Start()
 	{
         Time.timeScale = 1f;
-        text1.SetActive(true);
+        respawnTransform.position = transform.position;
+        text.SetActive(true);
     }
 
     public void ZombieKilled()
