@@ -2,18 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ingredient : MonoBehaviour
-{
-    public LevelManager levelManager;
-    public Transform respawnTransform;
+public class Instructions : MonoBehaviour {
+
+    public GameObject text;
 
     void OnTriggerEnter(Collider other)
     {
         if (other.tag.Equals("Player"))
         {
-            respawnTransform.position = transform.position;
-            levelManager.IngredientCollected();
             Destroy(this.gameObject);
+            text.SetActive(true);
         }
     }
 }

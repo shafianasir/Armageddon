@@ -12,7 +12,7 @@ public class AdvancedAI : MonoBehaviour
     public float lookAtDistance = 25.0f;
     public float chaseRange = 15.0f;
     public float attackRange = 8.0f;
-    public int attackRepeatTime = 1;
+    public int attackRepeatTime = 2;
     private float attackTime;
     public float moveSpeed = 2.0f;
     public float damping = 6.0f; //rotation speed
