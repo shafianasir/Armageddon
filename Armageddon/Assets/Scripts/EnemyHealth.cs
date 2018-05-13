@@ -1,19 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour {
 
     public Animator theAnimator;
-    public int Health = 100;
     public LevelManager levelManager;
+    public int Health = 100;
 
     void ApplyDamage()
     {
         GameObject Arms = GameObject.Find("Arms");
-        controls playerScript = Arms.GetComponent<controls>();
-       // MeleeSystem playerScript = Melee.GetComponent<MeleeSystem>();
-        Health -= playerScript.TheDamage;
+        Controls con = Arms.GetComponent<Controls>();
+        Health -= con.TheDamage;
 
         if (Health <= 0)
         {

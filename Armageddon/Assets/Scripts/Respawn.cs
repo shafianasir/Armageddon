@@ -9,8 +9,8 @@ public class Respawn : MonoBehaviour {
     public bool playerIsDead = false;
     public Transform respawnTransform;
     public GameObject MenuUI;
-    public Text Lives; 
     public PlayerStats player;
+    public Text Lives; 
 
     public void RespawnPlayer()
     {

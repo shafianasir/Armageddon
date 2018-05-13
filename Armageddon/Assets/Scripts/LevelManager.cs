@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -8,9 +6,8 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour {
 
     public GameObject endLevelUI;
-    public Save savegame;
-    public Text TextUI;
-    //public Text Text1;
+    public Save saveGame;
+    public GameObject text1;
 
     public int levelNo;
     public int itemsToCollect;
@@ -19,28 +16,12 @@ public class LevelManager : MonoBehaviour {
     private void Start()
 	{
         Time.timeScale = 1f;
-        //GameObject.Find("InGamePanel").SetActive(true);
-        //Text1.GetComponent.< Text > ().enabled = true;
-        GameObject Text1 = GameObject.Find("info1");
-        Text txt = Text1.GetComponent<Text>();
-        txt.enabled = true;
-    }
-
-    public void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TextUI.text = " ";
-            GameObject Text1 = GameObject.Find("info1");
-            Text txt = Text1.GetComponent<Text>();
-            txt.enabled = false;
-        }
+        text1.SetActive(true);
     }
 
     public void ZombieKilled()
     {
         zombiesLeft--;
-
         if (zombiesLeft <= 0)
         {
             if (itemsToCollect <= 0)
@@ -52,11 +33,9 @@ public class LevelManager : MonoBehaviour {
         }
     }
 
-    public void IngredientCollected(string name)
+    public void IngredientCollected()
     {
         itemsToCollect--;
-       // Debug.Log("You collected: " + name);
-        TextUI.text = "Ingredients left = " + itemsToCollect;
         if (itemsToCollect <= 0)
         {
             if (zombiesLeft <= 0)
@@ -75,7 +54,7 @@ public class LevelManager : MonoBehaviour {
         string l = scene.name;
         char last = l[l.Length - 1];
         String lvl = last.ToString();
-        savegame.SaveData(lvl);
+        saveGame.SaveData(lvl);
 
         endLevelUI.SetActive(true);
         //Time.timeScale = 0f;

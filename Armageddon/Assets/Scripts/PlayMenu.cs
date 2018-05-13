@@ -7,16 +7,7 @@ using UnityEngine.EventSystems;
 
 public class PlayMenu : MonoBehaviour {
 
-    int Unlocked;
-    int Level;
     GameObject myButton;
-
-    public void NewGame()
-    {
-        PlayerPrefs.DeleteAll();
-        Debug.Log("Starting New Game");
-        //SceneManager.LoadScene("Level1");
-    }
 
     public void OnClicked(Button levelButton)
     {

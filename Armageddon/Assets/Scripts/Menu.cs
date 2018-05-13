@@ -1,16 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityStandardAssets.Characters.FirstPerson;
 
-public class PauseMenu : MonoBehaviour {
+public class Menu : MonoBehaviour {
 
     public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
 
     private void Update()
     {
+        //add button on screen
         if(Input.GetKeyDown(KeyCode.Tab))
         {
             if (GameIsPaused)
@@ -45,7 +43,7 @@ public class PauseMenu : MonoBehaviour {
 
     public void QuitGame()
     {
-        Debug.Log("Quitting");
+        Debug.Log("Quitting...");
     }
 
     public void NextLevel()
@@ -53,4 +51,9 @@ public class PauseMenu : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void Exit()
+    {
+        Debug.Log("Exiting...");
+        Application.Quit();
+    }
 }

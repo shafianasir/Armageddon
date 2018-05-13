@@ -1,4 +1,19 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
+<<<<<<< HEAD
 
 Quitting shader compiler process
+=======
+Cmd: preprocess
+  insize=550 outsize=550 ok=1
+Cmd: preprocess
+  insize=4405 outsize=1085 ok=1
+Cmd: preprocess
+  insize=12931 outsize=2549 ok=1
+Cmd: preprocess
+  insize=12069 outsize=2430 ok=1
+Cmd: preprocess
+  insize=1876 outsize=565 ok=1
+Cmd: preprocess
+  insize=550 outsize=550 ok=1
+>>>>>>> 6aacdd39d6bbcd8fd22499db2d80be073e83d40c
