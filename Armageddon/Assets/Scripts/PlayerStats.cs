@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
 using UnityEngine.UI;
 
@@ -8,9 +6,10 @@ public class PlayerStats : MonoBehaviour {
 
     public int Lives;
     public int MaxLives = 3;
-    public int MaxHealth = 100;
     public int Health;
+    public int MaxHealth = 100;
 
+    public Respawn respawn;
     public GameObject RetryUI;
     public GameObject FailUI;
     public Text TextUI;
@@ -35,18 +34,13 @@ public class PlayerStats : MonoBehaviour {
 
     void Dead()
     {
-        //GameObject Player = GameObject.Find("Player");
-        //RespawnMenu menu = Player.GetComponent<RespawnMenu>();
-        //menu.playerIsDead = true;
         Lives--;
-        TextUI.text = "Lives left = " + Lives;
-
         FirstPersonController fpc = GetComponent<FirstPersonController>();
         fpc.enabled = false;
+
         GameObject Zombie = GameObject.FindWithTag("Zombie");
         AdvancedAI enemyScript = Zombie.GetComponent<AdvancedAI>();
         enemyScript.enabled = false;
-        Debug.Log("Player died");
 
         if (Lives > 0)
         {
@@ -72,5 +66,5 @@ public class PlayerStats : MonoBehaviour {
     void RespawnStats()
     {
         Health = MaxHealth;
-    }
+    } 
 }

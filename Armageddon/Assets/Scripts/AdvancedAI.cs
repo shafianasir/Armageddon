@@ -6,16 +6,16 @@ public class AdvancedAI : MonoBehaviour
 {
     public Animator theAnimator;
     public CharacterController controller;
-    public Transform Target;
+    public Transform target;
 
-    public float Distance;
+    public float distance;
     public float lookAtDistance = 25.0f;
     public float chaseRange = 15.0f;
     public float attackRange = 8.0f;
     public int attackRepeatTime = 1;
     private float attackTime;
     public float moveSpeed = 2.0f;
-    public float Damping = 6.0f; //rotation speed
+    public float damping = 6.0f; //rotation speed
     public float gravity = 20.0f;
     private Vector3 moveDirection = Vector3.zero;
     public int TheDamage = 20;
@@ -31,18 +31,17 @@ public class AdvancedAI : MonoBehaviour
         Respawn respawn = Player.GetComponent<Respawn>();
         if (respawn.playerIsDead == false)
         {
-            Distance = Vector3.Distance(Target.position, transform.position);
-            if (Distance < lookAtDistance)
+            distance = Vector3.Distance(target.position, transform.position);
+            if (distance < lookAtDistance)
             {
                 LookAt();
             }
 
-            if (Distance < attackRange)
+            if (distance < attackRange)
             {
                 Attack();
             }
-
-            else if (Distance < chaseRange)
+            else if (distance < chaseRange)
             {
                 Chase();
             }
@@ -51,8 +50,8 @@ public class AdvancedAI : MonoBehaviour
 
     void LookAt()
     {
-        Quaternion rotation = Quaternion.LookRotation(Target.position - transform.position);
-        transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * Damping); //rotates enemy
+        Quaternion rotation = Quaternion.LookRotation(target.position - transform.position);
+        transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * damping); //rotates enemy
     }
 
     void Chase()
@@ -63,7 +62,6 @@ public class AdvancedAI : MonoBehaviour
 
         moveDirection = transform.forward;
         moveDirection *= moveSpeed;
-
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
     }
@@ -74,7 +72,7 @@ public class AdvancedAI : MonoBehaviour
         {
             theAnimator.SetBool("Move", false);
             theAnimator.SetBool("Hit", true);
-            Target.SendMessage("ApplyDamage", TheDamage, SendMessageOptions.DontRequireReceiver);
+            target.SendMessage("ApplyDamage", TheDamage, SendMessageOptions.DontRequireReceiver);
             Debug.Log("Enemy attacking");
             attackTime = Time.time + attackRepeatTime;
         }

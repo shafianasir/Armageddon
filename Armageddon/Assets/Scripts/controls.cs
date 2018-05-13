@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class controls : MonoBehaviour
+public class Controls : MonoBehaviour
 {
     public Animator theAnimator;
     public int TheDamage = 25;
