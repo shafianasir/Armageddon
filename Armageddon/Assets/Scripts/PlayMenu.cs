@@ -41,4 +41,11 @@ public class PlayMenu : MonoBehaviour {
             myButton.GetComponent<Button>().interactable = true;
         }
     }
+
+    public void NewGame()
+    {
+        PlayerPrefs.DeleteAll();
+        Debug.Log("New Game");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }

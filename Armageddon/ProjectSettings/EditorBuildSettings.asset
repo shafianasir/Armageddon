@@ -8,15 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 1dc7bde8e0d61e0479df9d8c807f2e95
-  - enabled: 0
-    path: 
-    guid: 74038dbdbb94624489a3276f68164127
-  - enabled: 0
-    path: Assets/Scenes/DeleteLater.unity
-    guid: 41a9d0c4676d4d04db42cbf7e53c7632
   - enabled: 1
     path: Assets/Scenes/Level1.unity
-    guid: d453bedea5707ff438468b4243b23068
+    guid: a54f922f3c7245e44b00094faee0ba6e
   - enabled: 1
     path: Assets/Scenes/Level2.unity
     guid: e35e27750856dcd4385c4cb488962926
@@ -29,3 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level5.unity
     guid: b83773d2d3ea60f40ad1425aaf155401
+  - enabled: 1
+    path: Assets/Scenes/Level.unity
+    guid: d453bedea5707ff438468b4243b23068
+  - enabled: 0
+    path: Assets/Scenes/DeleteLater.unity
+    guid: 41a9d0c4676d4d04db42cbf7e53c7632
+  - enabled: 0
+    path: 
+    guid: 74038dbdbb94624489a3276f68164127
