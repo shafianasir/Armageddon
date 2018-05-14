@@ -48,6 +48,7 @@ MonoBehaviour:
     height: 635
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 683, y: 342}
   m_MaxSize: {x: 12008, y: 8042}
   vertical: 0
@@ -71,6 +72,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 94523abe... jj
+=======
+>>>>>>> parent of 94523abe... jj
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
@@ -80,6 +83,9 @@ MonoBehaviour:
   controlID: 78
 >>>>>>> 0ed02d87cf136eceaa3eee7822f30de6f4d5918b
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 94523abe... jj
+=======
 >>>>>>> parent of 94523abe... jj
 =======
 >>>>>>> parent of 94523abe... jj
@@ -99,9 +105,15 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1089
     y: 0
     width: 277
+=======
+    x: 1086
+    y: 0
+    width: 280
+>>>>>>> parent of 94523abe... jj
 =======
     x: 1086
     y: 0
@@ -138,8 +150,11 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 269
 =======
+=======
+>>>>>>> parent of 94523abe... jj
 =======
 >>>>>>> parent of 94523abe... jj
     width: 268
@@ -149,6 +164,9 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 94523abe... jj
+=======
 >>>>>>> parent of 94523abe... jj
 =======
 >>>>>>> parent of 94523abe... jj
@@ -179,8 +197,11 @@ MonoBehaviour:
     y: 364
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1089
 =======
+=======
+>>>>>>> parent of 94523abe... jj
 =======
 >>>>>>> parent of 94523abe... jj
     width: 1086
@@ -191,6 +212,9 @@ MonoBehaviour:
   m_ActualView: {fileID: 13}
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 94523abe... jj
+=======
 >>>>>>> parent of 94523abe... jj
 =======
 >>>>>>> parent of 94523abe... jj
@@ -198,6 +222,7 @@ MonoBehaviour:
   m_MinSize: {x: 102, y: 121}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_Panes:
@@ -210,6 +235,14 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 >>>>>>> 26e41e30d4f1fac1cf3ed35002b6e747e1674b46
+=======
+>>>>>>> 0ed02d87cf136eceaa3eee7822f30de6f4d5918b
+  m_Panes:
+  - {fileID: 13}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 1
+>>>>>>> parent of 94523abe... jj
 =======
 >>>>>>> 0ed02d87cf136eceaa3eee7822f30de6f4d5918b
   m_Panes:
@@ -250,6 +283,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 950, y: 392}
 =======
 <<<<<<< HEAD
@@ -258,6 +292,9 @@ MonoBehaviour:
   m_MinSize: {x: 950, y: 300}
 >>>>>>> 40f25a038673185f828b64b3f15aa362232aea40
 >>>>>>> 26e41e30d4f1fac1cf3ed35002b6e747e1674b46
+=======
+  m_MinSize: {x: 950, y: 392}
+>>>>>>> parent of 94523abe... jj
 =======
   m_MinSize: {x: 950, y: 392}
 >>>>>>> parent of 94523abe... jj
@@ -326,6 +363,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1089
     height: 635
   m_MinSize: {x: 406, y: 342}
@@ -351,6 +389,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 94523abe... jj
+=======
+>>>>>>> parent of 94523abe... jj
     width: 1086
     height: 635
 <<<<<<< HEAD
@@ -365,6 +405,9 @@ MonoBehaviour:
   controlID: 79
 >>>>>>> 0ed02d87cf136eceaa3eee7822f30de6f4d5918b
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 94523abe... jj
+=======
 >>>>>>> parent of 94523abe... jj
 =======
 >>>>>>> parent of 94523abe... jj
@@ -388,7 +431,11 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1089
+=======
+    width: 1086
+>>>>>>> parent of 94523abe... jj
 =======
     width: 1086
 >>>>>>> parent of 94523abe... jj
@@ -399,6 +446,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -421,11 +469,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 94523abe... jj
+=======
+>>>>>>> parent of 94523abe... jj
   controlID: 32
 =======
   controlID: 11
 >>>>>>> 0ed02d87cf136eceaa3eee7822f30de6f4d5918b
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 94523abe... jj
+=======
 >>>>>>> parent of 94523abe... jj
 =======
 >>>>>>> parent of 94523abe... jj
@@ -445,6 +498,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 269
     y: 0
     width: 820
@@ -459,6 +513,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 94523abe... jj
+=======
+>>>>>>> parent of 94523abe... jj
     x: 268
     y: 0
     width: 818
@@ -469,6 +525,9 @@ MonoBehaviour:
   m_ActualView: {fileID: 17}
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 94523abe... jj
+=======
 >>>>>>> parent of 94523abe... jj
 =======
 >>>>>>> parent of 94523abe... jj
@@ -532,7 +591,11 @@ MonoBehaviour:
     y: 456
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1087
+=======
+    width: 1084
+>>>>>>> parent of 94523abe... jj
 =======
     width: 1084
 >>>>>>> parent of 94523abe... jj
@@ -558,6 +621,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -593,6 +657,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 94523abe... jj
+=======
+>>>>>>> parent of 94523abe... jj
   m_LastProjectPath: C:\Users\Aleena Solatch\Documents\Github\Armageddon\Armageddon
   m_IsLocked: 0
   m_FolderTreeState:
@@ -608,6 +674,9 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000e6260000a62b00009c39000078540000486100003a680000648700006687000000ca9a3bffffff7f
 >>>>>>> 0ed02d87cf136eceaa3eee7822f30de6f4d5918b
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 94523abe... jj
+=======
 >>>>>>> parent of 94523abe... jj
 =======
 >>>>>>> parent of 94523abe... jj
@@ -641,6 +710,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000c82600008a2b0000803900006054000034610000266800007469000076690000
 =======
 <<<<<<< HEAD
@@ -660,11 +730,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 94523abe... jj
+=======
+>>>>>>> parent of 94523abe... jj
     m_ExpandedIDs: 00000000c41301003c1401000615010080160100bc160100361701007a180100421901007219010074190100
 =======
     m_ExpandedIDs: 00000000e6260000a62b00009c39000078540000486100003a6800006487000066870000
 >>>>>>> 0ed02d87cf136eceaa3eee7822f30de6f4d5918b
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 94523abe... jj
+=======
 >>>>>>> parent of 94523abe... jj
 =======
 >>>>>>> parent of 94523abe... jj
@@ -701,6 +776,7 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     m_SelectedInstanceIDs: 
@@ -711,6 +787,9 @@ MonoBehaviour:
 >>>>>>> 40f25a038673185f828b64b3f15aa362232aea40
     m_HadKeyboardFocusLastEvent: 1
 >>>>>>> 26e41e30d4f1fac1cf3ed35002b6e747e1674b46
+=======
+>>>>>>> 0ed02d87cf136eceaa3eee7822f30de6f4d5918b
+>>>>>>> parent of 94523abe... jj
 =======
 >>>>>>> 0ed02d87cf136eceaa3eee7822f30de6f4d5918b
 >>>>>>> parent of 94523abe... jj
@@ -768,6 +847,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1091
     y: 92
     width: 275
@@ -776,12 +856,17 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 94523abe... jj
+=======
+>>>>>>> parent of 94523abe... jj
     x: 1088
     y: 92
     width: 278
     height: 614
   m_ScrollPosition: {x: 0, y: 144.95508}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 94523abe... jj
+=======
 >>>>>>> parent of 94523abe... jj
 =======
 >>>>>>> parent of 94523abe... jj
@@ -817,7 +902,11 @@ MonoBehaviour:
     y: 92
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 267
+=======
+    width: 266
+>>>>>>> parent of 94523abe... jj
 =======
     width: 266
 >>>>>>> parent of 94523abe... jj
@@ -852,6 +941,7 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 2aeafcff00000000
 <<<<<<< HEAD
 >>>>>>> parent of e239d447... .
@@ -859,6 +949,10 @@ MonoBehaviour:
 >>>>>>> parent of e239d447... .
 >>>>>>> 40f25a038673185f828b64b3f15aa362232aea40
 >>>>>>> 26e41e30d4f1fac1cf3ed35002b6e747e1674b46
+=======
+    m_ExpandedIDs: 1afcffff00000000
+>>>>>>> 0ed02d87cf136eceaa3eee7822f30de6f4d5918b
+>>>>>>> parent of 94523abe... jj
 =======
     m_ExpandedIDs: 1afcffff00000000
 >>>>>>> 0ed02d87cf136eceaa3eee7822f30de6f4d5918b
@@ -884,7 +978,11 @@ MonoBehaviour:
       m_IsRenamingFilename: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 0}
+=======
+      m_ClientGUIView: {fileID: 4}
+>>>>>>> parent of 94523abe... jj
 =======
       m_ClientGUIView: {fileID: 4}
 >>>>>>> parent of 94523abe... jj
@@ -921,9 +1019,15 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 271
     y: 92
     width: 816
+=======
+    x: 270
+    y: 92
+    width: 814
+>>>>>>> parent of 94523abe... jj
 =======
     x: 270
     y: 92
@@ -980,6 +1084,7 @@ MonoBehaviour:
 <<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
@@ -1007,6 +1112,13 @@ MonoBehaviour:
   m_Size:
     m_Target: 508.63037
     speed: 2
+=======
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 508.63037
+    speed: 2
+>>>>>>> parent of 94523abe... jj
     m_Value: 508.63037
 =======
     m_Target: {x: 0.07920678, y: 0.67655075, z: -0.07356307, w: 0.7284222}
@@ -1017,6 +1129,9 @@ MonoBehaviour:
     speed: 2
     m_Value: 22
 >>>>>>> 0ed02d87cf136eceaa3eee7822f30de6f4d5918b
+<<<<<<< HEAD
+>>>>>>> parent of 94523abe... jj
+=======
 >>>>>>> parent of 94523abe... jj
   m_Ortho:
     m_Target: 1
@@ -1069,6 +1184,7 @@ MonoBehaviour:
     m_VRangeLocked: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -766
     m_HBaseRangeMax: 766
     m_VBaseRangeMin: -386.5
@@ -1076,11 +1192,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 94523abe... jj
+=======
+>>>>>>> parent of 94523abe... jj
     m_HBaseRangeMin: -407
     m_HBaseRangeMax: 407
     m_VBaseRangeMin: -163
     m_VBaseRangeMax: 163
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 94523abe... jj
+=======
 >>>>>>> parent of 94523abe... jj
 =======
 >>>>>>> parent of 94523abe... jj
@@ -1102,6 +1223,7 @@ MonoBehaviour:
       y: 17
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 1532
       height: 773
     m_Scale: {x: 1, y: 1}
@@ -1109,11 +1231,16 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of 94523abe... jj
+=======
+>>>>>>> parent of 94523abe... jj
       width: 814
       height: 326
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 407, y: 163}
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 94523abe... jj
+=======
 >>>>>>> parent of 94523abe... jj
 =======
 >>>>>>> parent of 94523abe... jj
@@ -1125,6 +1252,7 @@ MonoBehaviour:
       serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       x: -766
       y: -386.5
       width: 1532
@@ -1134,6 +1262,17 @@ MonoBehaviour:
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 1
   m_LastWindowPixelSize: {x: 1532, y: 790}
+=======
+      x: -407
+      y: -163
+      width: 814
+      height: 326
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_TargetTexture: {fileID: 0}
+  m_CurrentColorSpace: 0
+  m_LastWindowPixelSize: {x: 814, y: 343}
+>>>>>>> parent of 94523abe... jj
 =======
       x: -407
       y: -163
@@ -1185,7 +1324,11 @@ MonoBehaviour:
     y: 456
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1087
+=======
+    width: 1084
+>>>>>>> parent of 94523abe... jj
 =======
     width: 1084
 >>>>>>> parent of 94523abe... jj
