@@ -2527,6 +2527,22 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 470378, guid: f4aca82b3eac5a94789604361eba1c01, type: 2}
   m_PrefabInternal: {fileID: 129478833}
+--- !u!1 &86056791 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 176848, guid: e5a4d6a2928750f47a79016275192e15, type: 2}
+  m_PrefabInternal: {fileID: 652925052}
+--- !u!65 &86056794
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 86056791}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.7721863, y: 2.5495555, z: 2.2808533}
+  m_Center: {x: 0.0818634, y: 1.1317986, z: -0.0012359619}
 --- !u!1001 &86305685
 Prefab:
   m_ObjectHideFlags: 0
@@ -18593,7 +18609,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7f5ad6080df723d4ab3121017a2b0094, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -27819,7 +27835,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 7f5ad6080df723d4ab3121017a2b0094, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -50092,6 +50108,18 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: fd96d2647bc61f446b2053fdf050cbde, type: 3}
+--- !u!65 &1893539168
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1893539164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 19.564335, y: 15.976265, z: 25.711523}
+  m_Center: {x: 0.12127212, y: 7.9881325, z: 0.4519254}
 --- !u!1001 &1895293073
 Prefab:
   m_ObjectHideFlags: 0

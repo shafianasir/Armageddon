@@ -12,7 +12,6 @@ public class PlayerStats : MonoBehaviour {
     public Respawn respawn;
     public GameObject RetryUI;
     public GameObject FailUI;
-    public Text TextUI;
 
     private void Start()
     {
