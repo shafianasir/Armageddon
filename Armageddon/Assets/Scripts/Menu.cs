@@ -13,12 +13,12 @@ public class Menu : MonoBehaviour {
         {
             if (GameIsPaused)
             {
-                PauseMenuUI.SetActive(false);
+                //PauseMenuUI.SetActive(false);
                 Resume();
             }
             else
             {
-                PauseMenuUI.SetActive(true);
+                //PauseMenuUI.SetActive(true);
                 Pause();
             }
         }
@@ -26,12 +26,14 @@ public class Menu : MonoBehaviour {
 
     public void Resume()
     {
+        PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
 
     public void Pause()
     {
+        PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
     }

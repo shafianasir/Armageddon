@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 9
+  controlID: 75
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 685
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -334,10 +334,10 @@ MonoBehaviour:
   m_LastProjectPath: C:\Users\shafi_000\Documents\GitHub\Armageddon\Armageddon
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 91}
+    scrollPos: {x: 0, y: 17.427776}
     m_SelectedIDs: 6a630000
     m_LastClickedID: 25450
-    m_ExpandedIDs: 00000000dc2600009e2b00009439000076540000486100003c680000dc860000de86000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000dc2600009e2b00009439000076540000486100003c680000ce860000d086000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,7 +365,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dc2600009e2b00009439000076540000486100003c680000dc860000de860000
+    m_ExpandedIDs: 00000000dc2600009e2b00009439000076540000486100003c680000ce860000d0860000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -393,7 +393,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -409,7 +409,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -481,9 +481,9 @@ MonoBehaviour:
     height: 343
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e6ab0300
-    m_LastClickedID: 240614
-    m_ExpandedIDs: e444fcffa878fcff1897fcff62d7fcff8c41fdffc062fdffc08ffdff42ddfdffdc02feffd62dfeff504efeff527bfeffe2a8feff24c3feff26dbfeffbcfbfeff6c18ffff0034ffffd4deffff1afcffff00000000964b01001eed0100ec380200525802001cad0200
+    m_SelectedIDs: 00650000
+    m_LastClickedID: 0
+    m_ExpandedIDs: ec37f7fff657f7ff8ec3f7ff5cf7f7ffc811f8ff6846f8ffae61f8ffda7ff8ff089af8ffacb3f8ffd8cdf8ff64d4f8ff0ef1f8ff060ef9ff8828f9ff2863f9ffc87df9ff2698f9ffe4cbf9ffee08faffca27faff8e58faff4275faff1afcffff000000000671000076790000709a060032420700146508006cce0800
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -533,14 +533,14 @@ MonoBehaviour:
     width: 786
     height: 343
   m_SceneLighting: 1
-  lastFramingTime: 1162.2881904017786
-  m_2DMode: 0
+  lastFramingTime: 3940.8827281702183
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 353.8, y: 9.85, z: 367.9}
+    m_Target: {x: 393.25, y: 163.2, z: 0.25}
     speed: 2
-    m_Value: {x: 353.8, y: 9.85, z: 367.9}
+    m_Value: {x: 393.25, y: 163.2, z: 0.25}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -555,26 +555,26 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-    zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
   m_Rotation:
-    m_Target: {x: 0.35281128, y: -0.610564, z: 0.3490262, w: 0.61718476}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.35281125, y: 0.610564, z: -0.34902617, w: -0.6171847}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 23.278906
+    m_Target: 434.36386
     speed: 2
-    m_Value: 23.278906
+    m_Value: 434.36386
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
-  m_LastSceneViewRotation: {x: 0.020116478, y: -0.9779012, z: 0.11227321, w: 0.17521226}
+    m_Value: 1
+  m_LastSceneViewRotation: {x: 0.049690463, y: 0.06287478, z: -0.0031347433, w: 0.9967788}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -680,5 +680,5 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 456
-    width: 1087
+    width: 1044
     height: 250
