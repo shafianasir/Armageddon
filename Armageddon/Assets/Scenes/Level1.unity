@@ -14706,6 +14706,7 @@ GameObject:
   - component: {fileID: 519780194}
   - component: {fileID: 519780193}
   - component: {fileID: 519780192}
+  - component: {fileID: 519780195}
   m_Layer: 5
   m_Name: fixedjoybutton
   m_TagString: Untagged
@@ -14728,8 +14729,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -614, y: 47}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -627.2, y: 35.3}
+  m_SizeDelta: {x: 73.5, y: 70.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &519780192
 MonoBehaviour:
@@ -14775,6 +14776,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 519780190}
+--- !u!114 &519780195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 519780190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46b8741e08787274e91cf768de190105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &521584413 stripped
 Transform:
   m_PrefabParentObject: {fileID: 447392, guid: 23952fac1cccdca479219c9c94a4f4e0, type: 2}
@@ -35727,6 +35739,21 @@ Prefab:
         type: 2}
       propertyPath: m_SizeDelta.y
       value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 114789044635501690, guid: ce5089f3caa5bb042a4d4c23a427bc82,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.53676474
+      objectReference: {fileID: 0}
+    - target: {fileID: 114789044635501690, guid: ce5089f3caa5bb042a4d4c23a427bc82,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.5288711
+      objectReference: {fileID: 0}
+    - target: {fileID: 114789044635501690, guid: ce5089f3caa5bb042a4d4c23a427bc82,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.5288711
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ce5089f3caa5bb042a4d4c23a427bc82, type: 2}
