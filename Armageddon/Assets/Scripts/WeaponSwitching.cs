@@ -6,52 +6,16 @@ public class WeaponSwitching : MonoBehaviour
 {
 
     public int currentWeapon = 0;
-    public int maxWeapons = 3;
+    public int maxWeapons = 2;
     public Animator theAnimator;
 
-    // Use this for initialization
     void Start()
     {
         SelectWeapon(0);
     }
 
-    // Update is called once per frame
     void Update()
-    {
-        if (Input.GetAxis("Mouse ScrollWheel") > 0)
-        {
-            if (currentWeapon + 1 <= maxWeapons)
-            {
-                currentWeapon++;
-            }
-            else
-            {
-                currentWeapon = 0;
-            }
-            SelectWeapon(currentWeapon);
-        }
-        else if (Input.GetAxis("Mouse ScrollWheel") < 0)
-        {
-            if (currentWeapon - 1 >= 0)
-            {
-                currentWeapon--;
-            }
-            else
-            {
-                currentWeapon = maxWeapons;
-            }
-            SelectWeapon(currentWeapon);
-        }
-        //loop scroll
-        if (currentWeapon == maxWeapons + 1)
-        {
-            currentWeapon = 0;
-        }
-        if (currentWeapon == -1)
-        {
-            currentWeapon = maxWeapons;
-        }
-        //key press
+    {/*
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             currentWeapon = 0;
@@ -74,13 +38,26 @@ public class WeaponSwitching : MonoBehaviour
             currentWeapon = 3;
             SelectWeapon(currentWeapon);
         }
+        */
+    }
+
+    public void Switch()
+    {
+        if (currentWeapon + 1 <= maxWeapons)
+        {
+            currentWeapon++;
+        }
+        else
+        {
+            currentWeapon = 0;
+        }
+        SelectWeapon(currentWeapon);
     }
 
     void SelectWeapon(int index)
     {
         for (var i = 0; i < transform.childCount; i++)
         {
-            //Activate the selected weapon
             if (i == index)
             {
                 if (transform.GetChild(i).name == "Fists")
