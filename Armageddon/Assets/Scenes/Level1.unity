@@ -19745,10 +19745,14 @@ Prefab:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 2
 =======
       value: 4
 >>>>>>> c8db0dd8d3d2310d2a7d381f7e5bc84c35c591d7
+=======
+      value: 1
+>>>>>>> parent of c8db0dd8... mmm
 =======
       value: 1
 >>>>>>> parent of c8db0dd8... mmm
@@ -28438,10 +28442,14 @@ Transform:
   m_Father: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 8
 =======
   m_RootOrder: 10
 >>>>>>> c8db0dd8d3d2310d2a7d381f7e5bc84c35c591d7
+=======
+  m_RootOrder: 7
+>>>>>>> parent of c8db0dd8... mmm
 =======
   m_RootOrder: 7
 >>>>>>> parent of c8db0dd8... mmm
@@ -31128,10 +31136,14 @@ Prefab:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 3
 =======
       value: 5
 >>>>>>> c8db0dd8d3d2310d2a7d381f7e5bc84c35c591d7
+=======
+      value: 2
+>>>>>>> parent of c8db0dd8... mmm
 =======
       value: 2
 >>>>>>> parent of c8db0dd8... mmm
@@ -34035,10 +34047,14 @@ Prefab:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4
 =======
       value: 6
 >>>>>>> c8db0dd8d3d2310d2a7d381f7e5bc84c35c591d7
+=======
+      value: 3
+>>>>>>> parent of c8db0dd8... mmm
 =======
       value: 3
 >>>>>>> parent of c8db0dd8... mmm
@@ -49714,10 +49730,14 @@ Prefab:
       propertyPath: m_RootOrder
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 5
 =======
       value: 7
 >>>>>>> c8db0dd8d3d2310d2a7d381f7e5bc84c35c591d7
+=======
+      value: 4
+>>>>>>> parent of c8db0dd8... mmm
 =======
       value: 4
 >>>>>>> parent of c8db0dd8... mmm

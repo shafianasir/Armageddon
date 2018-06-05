@@ -46,7 +46,11 @@ MonoBehaviour:
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 67
+=======
+  controlID: 104
+>>>>>>> parent of c8db0dd8... mmm
 =======
   controlID: 104
 >>>>>>> parent of c8db0dd8... mmm
@@ -214,7 +218,11 @@ MonoBehaviour:
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 68
+=======
+  controlID: 105
+>>>>>>> parent of c8db0dd8... mmm
 =======
   controlID: 105
 >>>>>>> parent of c8db0dd8... mmm
@@ -242,7 +250,11 @@ MonoBehaviour:
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 23
+=======
+  controlID: 106
+>>>>>>> parent of c8db0dd8... mmm
 =======
   controlID: 106
 >>>>>>> parent of c8db0dd8... mmm
@@ -296,11 +308,14 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 468
     y: 181
     width: 973
     height: 501
 =======
+=======
+>>>>>>> parent of c8db0dd8... mmm
     x: 271
     y: 92
     width: 816
@@ -345,6 +360,7 @@ MonoBehaviour:
     m_SearchArea: 0
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
@@ -357,20 +373,33 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Animals/Bear
 >>>>>>> parent of c8db0dd8... mmm
+=======
+    - Assets/Animals/Bear
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Animals/Bear
+>>>>>>> parent of c8db0dd8... mmm
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Aleena Solatch\Documents\Github\Armageddon\Armageddon
   m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 151}
     m_SelectedIDs: c61f0100
     m_LastClickedID: 73670
     m_ExpandedIDs: 00000000481a0100b01a0100161b0100401b0100981b0100021d0100f81d0100301e0100481f0100042001001a200100482001004a2001004c2001004e2001005020010000ca9a3bffffff7f
 =======
+=======
+>>>>>>> parent of c8db0dd8... mmm
     scrollPos: {x: 0, y: 23.455555}
     m_SelectedIDs: 96620000
     m_LastClickedID: 25238
     m_ExpandedIDs: 00000000e6260000ba2b0000363100008e350000f439000038480000d64b00007c550000c85700009e62000038690000c4690000f88a0000fa8a0000fc8a0000fe8a0000008b000000ca9a3bffffff7f
+<<<<<<< HEAD
+>>>>>>> parent of c8db0dd8... mmm
+=======
 >>>>>>> parent of c8db0dd8... mmm
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -515,15 +544,21 @@ MonoBehaviour:
     height: 343
   m_TreeViewState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: e41f0100
     m_LastClickedID: 0
     m_ExpandedIDs: 6093f9ff0eadf9ff04c8f9ff38cbf9ff80cef9ffb4d8f9ff00000000
 =======
+=======
+>>>>>>> parent of c8db0dd8... mmm
     scrollPos: {x: 0, y: 1034}
     m_SelectedIDs: 187d0000
     m_LastClickedID: 32024
     m_ExpandedIDs: 18fcffff0000000060700000c27a0000
+<<<<<<< HEAD
+>>>>>>> parent of c8db0dd8... mmm
+=======
 >>>>>>> parent of c8db0dd8... mmm
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -575,7 +610,11 @@ MonoBehaviour:
     height: 343
   m_SceneLighting: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastFramingTime: 0
+=======
+  lastFramingTime: 398.0623304022743
+>>>>>>> parent of c8db0dd8... mmm
 =======
   lastFramingTime: 398.0623304022743
 >>>>>>> parent of c8db0dd8... mmm
@@ -584,9 +623,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
+=======
+    m_Target: {x: 272.24414, y: -22.9846, z: 370.2987}
+    speed: 2
+    m_Value: {x: 272.24414, y: -22.9846, z: 370.2987}
+>>>>>>> parent of c8db0dd8... mmm
 =======
     m_Target: {x: 272.24414, y: -22.9846, z: 370.2987}
     speed: 2
@@ -615,6 +660,7 @@ MonoBehaviour:
       m_Value: 0
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
@@ -623,6 +669,8 @@ MonoBehaviour:
     speed: 2
     m_Value: 10
 =======
+=======
+>>>>>>> parent of c8db0dd8... mmm
     m_Target: {x: 0.031514056, y: 0.9634392, z: -0.23149517, w: 0.1311555}
     speed: 2
     m_Value: {x: 0.031514056, y: 0.9634392, z: -0.23149517, w: 0.1311555}
@@ -630,13 +678,20 @@ MonoBehaviour:
     m_Target: 180.51653
     speed: 2
     m_Value: 180.51653
+<<<<<<< HEAD
+>>>>>>> parent of c8db0dd8... mmm
+=======
 >>>>>>> parent of c8db0dd8... mmm
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+=======
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+>>>>>>> parent of c8db0dd8... mmm
 =======
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
 >>>>>>> parent of c8db0dd8... mmm
