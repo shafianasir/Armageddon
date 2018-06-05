@@ -49,7 +49,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 84
+=======
+  controlID: 43
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
   controlID: 43
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
@@ -163,7 +167,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_MinSize: {x: 950, y: 392}
+=======
+  m_MinSize: {x: 950, y: 300}
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
   m_MinSize: {x: 950, y: 300}
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
@@ -245,7 +253,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 10
+=======
+  controlID: 100
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
   controlID: 100
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
@@ -285,7 +297,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 11
+=======
+  controlID: 101
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
   controlID: 101
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
@@ -322,7 +338,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_ActualView: {fileID: 16}
+=======
+  m_ActualView: {fileID: 18}
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
   m_ActualView: {fileID: 18}
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
@@ -343,8 +363,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Selected: 0
   m_LastSelected: 1
+=======
+  m_Selected: 1
+  m_LastSelected: 3
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
   m_Selected: 1
   m_LastSelected: 3
@@ -387,12 +412,15 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 468
     y: 181
     width: 973
     height: 501
 --- !u!114 &13
 =======
+=======
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
@@ -407,6 +435,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
+=======
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
@@ -464,11 +495,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 151}
     m_SelectedIDs: d2640000
     m_LastClickedID: 25810
     m_ExpandedIDs: 00000000e6260000ba2b0000363100008e350000f43900003a48000082550000ce570000a4620000d26400003e690000ca690000126b0000146b0000166b0000186b00001a6b000000ca9a3bffffff7f
 =======
+=======
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
@@ -482,6 +516,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
+=======
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
@@ -520,7 +557,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000e6260000ba2b0000363100008e350000f43900003a48000082550000ce570000a46200003e690000ca690000126b0000146b0000166b0000186b00001a6b0000
+=======
+    m_ExpandedIDs: 00000000e0260000b42b00003031000088350000f039000036480000d44b00007a550000c65700009c62000036690000c2690000f88a0000fa8a0000fc8a0000fe8a0000008b0000
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
     m_ExpandedIDs: 00000000e0260000b42b00003031000088350000f039000036480000d44b00007a550000c65700009c62000036690000c2690000f88a0000fa8a0000fc8a0000fe8a0000008b0000
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
@@ -651,11 +692,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 86660000
     m_LastClickedID: 0
     m_ExpandedIDs: 08b2ffff24b4ffffe2b5ffff30b8ffff36b9ffff7cbaffffb2beffffbebfffffb6c0ffff7cc3ffff62ddffff0edeffffc0dfffff40e1ffff42e3ffff8af0ffff10f1ffff98f1fffff2f2ffff78f3ffffb6f5ffffe4f7ffff18fcffff00000000
 =======
+=======
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
@@ -669,6 +713,9 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
+=======
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
@@ -729,6 +776,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastFramingTime: 0
   m_2DMode: 0
   m_isRotationLocked: 0
@@ -737,6 +785,16 @@ MonoBehaviour:
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
+=======
+  lastFramingTime: 6619.553982475201
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 694.475, y: 302, z: 0}
+    speed: 2
+    m_Value: {x: 694.475, y: 302, z: 0}
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
 =======
   lastFramingTime: 6619.553982475201
   m_2DMode: 1
@@ -803,6 +861,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
@@ -813,6 +872,8 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
+=======
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
@@ -820,6 +881,7 @@ MonoBehaviour:
     m_Target: 341.08542
     speed: 2
     m_Value: 341.08542
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
   m_Ortho:
@@ -861,6 +923,13 @@ MonoBehaviour:
     m_Target: 341.08542
     speed: 2
     m_Value: 341.08542
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+>>>>>>> parent of c26328d6... Merge branch 'master' of https://github.com/shafianasir/Armageddon
+=======
   m_Ortho:
     m_Target: 1
     speed: 2
