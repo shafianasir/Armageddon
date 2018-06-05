@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: E:/Armageddon/Assets/Scenes/Level2.unity
-=======
-- path: Assets/Scenes/Level2.unity
->>>>>>> dd2cd0ab7411f68ac20ad6095cf01b1e3fa7afe1
+- path: Assets/Scenes/Level1.unity
   isLoaded: 1
   isActive: 1
