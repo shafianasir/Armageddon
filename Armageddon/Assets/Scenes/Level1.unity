@@ -39179,7 +39179,7 @@ MonoBehaviour:
   theAnimator: {fileID: 1347691529}
   TheDamage: 25
   Distance: 0
-  MaxDistance: 20
+  MaxDistance: 5
 --- !u!1001 &1347929706
 Prefab:
   m_ObjectHideFlags: 0
