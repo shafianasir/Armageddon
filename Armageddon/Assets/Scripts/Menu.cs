@@ -38,6 +38,12 @@ public class Menu : MonoBehaviour {
         GameIsPaused = true;
     }
 
+    public void RestartLevel()
+    {
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
+    }
+
     public void LoadMenu()
     {
         SceneManager.LoadScene("MainMenu");

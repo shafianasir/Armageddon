@@ -28262,7 +28262,7 @@ MonoBehaviour:
   MaxLives: 3
   Health: 100
   MaxHealth: 100
-  respawn: {fileID: 941319287}
+  respawn: {fileID: 0}
   RetryUI: {fileID: 1064952437}
   FailUI: {fileID: 901401045}
 --- !u!1 &941907231 stripped
@@ -54256,8 +54256,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 941319287}
-        m_MethodName: RespawnPlayer
+      - m_Target: {fileID: 1888151955}
+        m_MethodName: RestartLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

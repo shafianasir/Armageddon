@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using UnityStandardAssets.Characters.FirstPerson;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using System;
 
 public class PlayerStats : MonoBehaviour {
 
@@ -54,16 +56,14 @@ public class PlayerStats : MonoBehaviour {
             Debug.Log("You lost all lives! Restart Game");
             FailUI.SetActive(true);
             Time.timeScale = 0f;
-            GameObject.Find("Player").SetActive(false);
-
+            
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
-            //Restart Game
         }
     }
 
     void RespawnStats()
     {
         Health = MaxHealth;
-    } 
+    }
 }
