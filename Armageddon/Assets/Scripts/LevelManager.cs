@@ -12,6 +12,7 @@ public class LevelManager : MonoBehaviour {
 
     public int levelNo;
     public int itemsToCollect;
+    public int weaponsToCollect;
     public int zombiesLeft;
 
     private void Start()
@@ -46,6 +47,16 @@ public class LevelManager : MonoBehaviour {
             } 
             else
                 Debug.Log("You need to kill " + zombiesLeft + " zombies.");
+        }
+    }
+
+    public void WeaponCollected()
+    {
+        weaponsToCollect--;
+        if (weaponsToCollect <= 0)
+        {
+            Debug.Log("Weapons collected");
+            //enable button
         }
     }
 

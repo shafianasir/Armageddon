@@ -5453,7 +5453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IsWalking: 0
-  m_WalkSpeed: 6
+  m_WalkSpeed: 10
   m_RunSpeed: 10
   m_RunstepLenghten: 0.7
   m_JumpSpeed: 10
@@ -9396,6 +9396,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 293202278}
+  - component: {fileID: 293202279}
   m_Layer: 0
   m_Name: Weapons
   m_TagString: Untagged
@@ -9410,14 +9411,26 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 293202277}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 454.25, y: 0.6519, z: 403.481}
+  m_LocalPosition: {x: 454.25, y: 50.5, z: 403.481}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1125825135}
   - {fileID: 1690074193}
+  - {fileID: 1125825135}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &293202279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 293202277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c77e76d584258a4383bd995cc7452eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!4 &293400765 stripped
 Transform:
   m_PrefabParentObject: {fileID: 457840, guid: e9d1d9668d449be45a7af0a7ee14bf1b, type: 2}
@@ -33907,7 +33920,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bfb0c990155e78140881fa17aa905626, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.3159
+      value: -49.674
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bfb0c990155e78140881fa17aa905626, type: 2}
       propertyPath: m_LocalPosition.z
@@ -33931,7 +33944,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bfb0c990155e78140881fa17aa905626, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bfb0c990155e78140881fa17aa905626, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -33961,6 +33974,14 @@ Prefab:
       propertyPath: m_Name
       value: weapon2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bfb0c990155e78140881fa17aa905626, type: 2}
+      propertyPath: m_TagString
+      value: Weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6500000, guid: bfb0c990155e78140881fa17aa905626, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bfb0c990155e78140881fa17aa905626, type: 2}
   m_IsPrefabParent: 0
@@ -33983,6 +34004,18 @@ Halo:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: bfb0c990155e78140881fa17aa905626, type: 2}
   m_PrefabInternal: {fileID: 1125825132}
+--- !u!114 &1125825139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1125825133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c77e76d584258a4383bd995cc7452eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 1952446592}
 --- !u!4 &1126882667 stripped
 Transform:
   m_PrefabParentObject: {fileID: 470378, guid: f4aca82b3eac5a94789604361eba1c01, type: 2}
@@ -49456,7 +49489,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 66f533bfdad492942a05a1b49647ea51, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0.4619
+      value: -49.598
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 66f533bfdad492942a05a1b49647ea51, type: 2}
       propertyPath: m_LocalPosition.z
@@ -49480,7 +49513,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 66f533bfdad492942a05a1b49647ea51, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 66f533bfdad492942a05a1b49647ea51, type: 2}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -49509,6 +49542,10 @@ Prefab:
     - target: {fileID: 400000, guid: 66f533bfdad492942a05a1b49647ea51, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 66f533bfdad492942a05a1b49647ea51, type: 2}
+      propertyPath: m_TagString
+      value: Weapon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 66f533bfdad492942a05a1b49647ea51, type: 2}
@@ -56769,6 +56806,7 @@ MonoBehaviour:
   respawnTransform: {fileID: 142609920}
   levelNo: 1
   itemsToCollect: 1
+  weaponsToCollect: 2
   zombiesLeft: 1
 --- !u!4 &1952446593
 Transform:
@@ -60699,6 +60737,30 @@ Halo:
     serializedVersion: 2
     rgba: 4286611584
   m_Size: 1.06
+--- !u!65 &2077222888
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2077222884}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.32000002, y: 1.45308, z: 0.12000006}
+  m_Center: {x: -0.000030518193, y: 0.06345285, z: 0.02657082}
+--- !u!114 &2077222889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2077222884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c77e76d584258a4383bd995cc7452eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 1952446592}
 --- !u!4 &2077868785 stripped
 Transform:
   m_PrefabParentObject: {fileID: 425762, guid: 477bb9eb1816c3e4bad55afbf9dc2fec, type: 2}
