@@ -1,17 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CollectWeapons : MonoBehaviour {
 
-    public LevelManager levelManager;
+    public GameObject weaponText;
+    public int weaponsToCollect;
 
-    void OnTriggerEnter(Collider other)
+    public void WeaponCollected()
     {
-        if (other.tag.Equals("Player"))
+        weaponsToCollect--;
+        if (weaponsToCollect <= 0)
         {
-            levelManager.WeaponCollected();
-            Destroy(this.gameObject);
+            Debug.Log("Weapons collected");
+            weaponText.SetActive(true);
+            GameObject weaponUI = GameObject.Find("WeaponButton");
+            weaponUI.GetComponent<Button>().interactable = true;
         }
     }
 }
