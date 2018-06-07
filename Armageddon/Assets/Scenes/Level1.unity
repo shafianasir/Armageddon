@@ -30567,6 +30567,7 @@ GameObject:
   - component: {fileID: 1009541960}
   - component: {fileID: 1009541959}
   - component: {fileID: 1009541958}
+  - component: {fileID: 1009541961}
   m_Layer: 0
   m_Name: minimapicon3
   m_TagString: Untagged
@@ -30640,6 +30641,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1009541956}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!122 &1009541961
+Halo:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1009541956}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4286611584
+  m_Size: 2.44
 --- !u!4 &1010910896 stripped
 Transform:
   m_PrefabParentObject: {fileID: 409996, guid: 088e29ac86190e74cb0d08641425a098, type: 2}
@@ -39827,10 +39839,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4554680d719fda4b98fe911d8bb69cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theAnimator: {fileID: 1347691529}
-  TheDamage: 25
-  Distance: 0
-  MaxDistance: 5
 --- !u!1001 &1347929706
 Prefab:
   m_ObjectHideFlags: 0
