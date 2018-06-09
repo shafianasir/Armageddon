@@ -7,6 +7,7 @@ public class AdvancedAI : MonoBehaviour
     public Animator theAnimator;
     public CharacterController controller;
     public Transform target;
+	//public Audiomanager manager;
 
     public float distance;
     public float lookAtDistance = 25.0f;
@@ -20,14 +21,19 @@ public class AdvancedAI : MonoBehaviour
     private Vector3 moveDirection = Vector3.zero;
     public int TheDamage = 20;
 
+
     void Start()
     {
+	//	FindObjectOfType<Audiomanager>().Play("zombie");
         attackTime = Time.time;
     }
 
     void Update()
     {
         GameObject Player = GameObject.Find("Player");
+
+	
+
         Respawn respawn = Player.GetComponent<Respawn>();
         if (respawn.playerIsDead == false)
         {
