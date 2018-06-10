@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Menu : MonoBehaviour {
 
     public static bool GameIsPaused = false;
     public GameObject PauseMenuUI;
+    public GameObject listImage;
 
     private void Update()
     {
@@ -63,5 +65,19 @@ public class Menu : MonoBehaviour {
     {
         Debug.Log("Exiting...");
         Application.Quit();
+    }
+
+    public void List()
+    {
+        Time.timeScale = 0f;
+        GameIsPaused = true;
+        listImage.SetActive(true);
+    }
+
+    public void Back()
+    {
+        Time.timeScale = 1f;
+        GameIsPaused = false;
+        listImage.SetActive(false);
     }
 }
