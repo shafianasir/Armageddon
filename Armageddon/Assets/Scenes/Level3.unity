@@ -3337,7 +3337,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62c5a358402906e438b845aa00dfce87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 1494909855}
+  text: {fileID: 1827550835}
 --- !u!23 &116404848
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3395,13 +3395,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 116404846}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 385.1, y: 1, z: 371.9}
-  m_LocalScale: {x: 1, y: 1, z: 12.577453}
+  m_LocalRotation: {x: -0, y: -0.68487227, z: -0, w: -0.72866315}
+  m_LocalPosition: {x: 77.23, y: 5.47, z: 161.2965}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -273.549, z: 0}
 --- !u!1001 &117827680
 Prefab:
   m_ObjectHideFlags: 0
@@ -20420,7 +20420,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -20440,7 +20440,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Kill the zombies
+  m_Text: 'WARNING: Beware! zombies get stronger at night and light attracts them!'
 --- !u!222 &690000105
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -36091,7 +36091,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Find weapons around the house to defend yourself!
+  m_Text: Here's a lamp to help you find your way.
 --- !u!222 &1234112586
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -47466,7 +47466,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The zombies are coming for you!
+  m_Text: It's night time and we are in a cemetry...This can't be good.
 --- !u!222 &1634031550
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -53816,6 +53816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PauseMenuUI: {fileID: 1378572212}
+  listImage: {fileID: 0}
 --- !u!114 &1888151956
 MonoBehaviour:
   m_ObjectHideFlags: 0
