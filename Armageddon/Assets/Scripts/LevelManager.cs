@@ -18,7 +18,7 @@ public class LevelManager : MonoBehaviour {
     private void Start()
 	{
         Time.timeScale = 1f;
-        respawnTransform.position = transform.position;
+        //respawnTransform.position = transform.position;
         text.SetActive(true);
     }
 
