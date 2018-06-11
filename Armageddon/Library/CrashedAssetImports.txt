@@ -1,1 +1,1 @@
-Assets/SimpleApocalypse/_Models/Props/SA_Prop_SafehouseDoor_02.fbx
+Assets/SimpleApocalypse/_Models/Characters/Animator/Zombies.fbx
