@@ -4,9 +4,28 @@ using System;
 
 public class Audiomanager : MonoBehaviour {
 
+    public AudioClip zombieDeath;
+
+    private AudioSource myAudioSource;
+
+    private static Audiomanager instance;
+    public static Audiomanager Instance
+    {
+        get
+        {
+            if (instance == null)
+                instance = GameObject.FindObjectOfType<Audiomanager>();
+
+            return instance;
+        }
+    }
+
 	public sounds[] sound;
 	// Use this for initialization
 	void Awake () {
+
+        myAudioSource = this.GetComponent<AudioSource>();
+
 		foreach (sounds s in sound)
 		{
 			s.source =	gameObject.AddComponent<AudioSource>();
@@ -18,9 +37,25 @@ public class Audiomanager : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	public void Play(string name) {
+	public void Play(string requiredName) {
 
-		sounds s = Array.Find (sound, soundd => soundd.name == name);
-		s.source.Play();
+        if (requiredName.Equals("zombie"))
+            myAudioSource.PlayOneShot(zombieDeath);
+
+        //Debug.Log("Inside Play function");
+        //foreach(sounds s in sound)
+        //{
+        //    if (s.name.Equals(requiredName))
+        //    {
+        //        Debug.Log("Playing Required Sound");
+        //        s.source.Play();
+        //        break;
+        //    }
+        //}
+
+        //sounds s = Array.Find (sound, requiredSound => requiredSound.name == name);
+		//s.source.Play();
 	}
+
+ 
 }

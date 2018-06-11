@@ -7,6 +7,7 @@ public class UIAppear : MonoBehaviour {
 
 	[SerializeField] private Image customimage;
     public GameObject ingredients;
+    public GameObject list;
     public GameObject zombies;
     public GameObject text;
 
@@ -15,6 +16,7 @@ public class UIAppear : MonoBehaviour {
 			customimage.enabled = true;
 		}
         ingredients.SetActive(true);
+        list.SetActive(true);
         zombies.SetActive(true);
         text.SetActive(true);
     }
