@@ -1,1 +1,1 @@
-Assets/SimpleApocalypse/_Models/Characters/Animator/Zombies.fbx
+Assets/SimpleApocalypse/_Models/Buildings/SA_Bld_Trailer_Damaged_02.fbx
