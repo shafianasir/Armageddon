@@ -4,27 +4,27 @@ using System;
 
 public class Audiomanager : MonoBehaviour {
 
-    public AudioClip zombieDeath;
+	public AudioClip zombieDeath;
 
-    private AudioSource myAudioSource;
+	private AudioSource myAudioSource;
 
-    private static Audiomanager instance;
-    public static Audiomanager Instance
-    {
-        get
-        {
-            if (instance == null)
-                instance = GameObject.FindObjectOfType<Audiomanager>();
+	private static Audiomanager instance;
+	public static Audiomanager Instance
+	{
+		get
+		{
+			if (instance == null)
+				instance = GameObject.FindObjectOfType<Audiomanager>();
 
-            return instance;
-        }
-    }
+			return instance;
+		}
+	}
 
 	public sounds[] sound;
 	// Use this for initialization
 	void Awake () {
 
-        myAudioSource = this.GetComponent<AudioSource>();
+		myAudioSource = this.GetComponent<AudioSource>();
 
 		foreach (sounds s in sound)
 		{
@@ -32,30 +32,31 @@ public class Audiomanager : MonoBehaviour {
 			s.source.clip = s.clip;
 
 			s.source.volume = s.volume;
-				s.source.pitch = s.pitch;
+			s.source.pitch = s.pitch;
 		}
 	}
-	
+
 	// Update is called once per frame
-	public void Play(string requiredName) {
+//	public void Play(string requiredName) {
 
-        if (requiredName.Equals("zombie"))
-            myAudioSource.PlayOneShot(zombieDeath);
+//		if (requiredName.Equals("zombie"))
+	//		myAudioSource.PlayOneShot(zombieDeath);
 
-        //Debug.Log("Inside Play function");
-        //foreach(sounds s in sound)
-        //{
-        //    if (s.name.Equals(requiredName))
-        //    {
-        //        Debug.Log("Playing Required Sound");
-        //        s.source.Play();
-        //        break;
-        //    }
-        //}
+		//Debug.Log("Inside Play function");
+		//foreach(sounds s in sound)
+		//{
+		//    if (s.name.Equals(requiredName))
+		//    {
+		//        Debug.Log("Playing Required Sound");
+		//        s.source.Play();
+		//        break;
+		//    }
+		//}
 
-        //sounds s = Array.Find (sound, requiredSound => requiredSound.name == name);
+		//sounds s = Array.Find (sound, requiredSound => requiredSound.name == name);
 		//s.source.Play();
 	}
+
 
  
 }
