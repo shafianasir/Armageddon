@@ -9692,6 +9692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponText: {fileID: 996966845}
+  weaponButton: {fileID: 657938226}
   weaponsToCollect: 2
 --- !u!4 &293400765 stripped
 Transform:
@@ -21388,7 +21389,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &657938227
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21442,7 +21443,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 657938229}
   m_OnClick:
     m_PersistentCalls:
@@ -41985,6 +41986,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4554680d719fda4b98fe911d8bb69cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  theAnimator: {fileID: 0}
+  TheDamage: 25
+  Distance: 0
+  MaxDistance: 5
 --- !u!1001 &1347929706
 Prefab:
   m_ObjectHideFlags: 0
@@ -49604,7 +49609,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1565733947
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53404,7 +53409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1701397684
 Transform:
   m_ObjectHideFlags: 0

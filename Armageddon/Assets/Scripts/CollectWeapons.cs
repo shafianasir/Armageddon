@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class CollectWeapons : MonoBehaviour {
 
     public GameObject weaponText;
+    public GameObject weaponButton;
     public int weaponsToCollect;
 
     public void WeaponCollected()
@@ -15,8 +16,10 @@ public class CollectWeapons : MonoBehaviour {
         {
             Debug.Log("Weapons collected");
             weaponText.SetActive(true);
-            GameObject weaponUI = GameObject.Find("WeaponButton");
-            weaponUI.GetComponent<Button>().interactable = true;
+            weaponButton.SetActive(true);
+            //GameObject weaponUI = GameObject.Find("WeaponButton");
+            //weaponUI.GetComponent<Button>().interactable = true;
+
         }
     }
 }
