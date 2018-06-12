@@ -37,10 +37,11 @@ public class Audiomanager : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-//	public void Play(string requiredName) {
+public void Play(string requiredName) {
 
-//		if (requiredName.Equals("zombie"))
-	//		myAudioSource.PlayOneShot(zombieDeath);
+		if (requiredName.Equals ("zombie"))
+			myAudioSource.PlayOneShot (zombieDeath);
+	}
 
 		//Debug.Log("Inside Play function");
 		//foreach(sounds s in sound)
@@ -59,4 +60,3 @@ public class Audiomanager : MonoBehaviour {
 
 
  
-}
