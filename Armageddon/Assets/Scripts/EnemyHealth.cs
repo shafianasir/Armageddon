@@ -18,6 +18,7 @@ public class EnemyHealth : MonoBehaviour {
             Dead();
         }
     }
+		
 
     void Dead()
     {
