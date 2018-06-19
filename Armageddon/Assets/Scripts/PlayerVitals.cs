@@ -5,7 +5,7 @@ public class PlayerVitals : MonoBehaviour
 {
     public Slider healthSlider;
     public int maxhealth;
-    //public int healthfallright;
+    public int healthfallright;
     public PlayerStats player;
 
     void Start()
