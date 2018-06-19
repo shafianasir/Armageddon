@@ -1,11 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class zombiestats : MonoBehaviour
+public class ZombieStats : MonoBehaviour
 {
 	public Slider healthSlider;
 	public int maxhealth;
-	public int healthfallright;
 	public EnemyHealth zombie;
 
 	void Start()
