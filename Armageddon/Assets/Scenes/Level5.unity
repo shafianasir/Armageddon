@@ -10580,6 +10580,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2342234, guid: ee9881fa6dbc00946907ee16df9dfa13, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ee9881fa6dbc00946907ee16df9dfa13, type: 2}
   m_IsPrefabParent: 0
@@ -22958,6 +22962,33 @@ GameObject:
 Transform:
   m_PrefabParentObject: {fileID: 485526, guid: 0e3f3cad60263e54d90a151a728634f1, type: 2}
   m_PrefabInternal: {fileID: 1863905392}
+--- !u!122 &765017351
+Halo:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 765017349}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4279177142
+  m_Size: 19.46
+--- !u!114 &765017352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 765017349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba41006d5d4800b41bff7bc7856f9db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  customimage: {fileID: 2045283764}
+  ingredients: {fileID: 0}
+  list: {fileID: 0}
+  zombies: {fileID: 0}
+  text: {fileID: 0}
 --- !u!64 &765017353
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22965,10 +22996,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 765017349}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 01e90742cc6be444489e7647b2de908a, type: 3}
@@ -48681,6 +48712,14 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 7d92168dd68e5db45a2d1f93a44c9b4e, type: 2}
+    - target: {fileID: 9568016, guid: 7822b01f89476d846847d47f7c45f689, type: 2}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9568016, guid: 7822b01f89476d846847d47f7c45f689, type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7822b01f89476d846847d47f7c45f689, type: 2}
   m_IsPrefabParent: 0
@@ -52615,7 +52654,7 @@ MonoBehaviour:
   moveSpeed: 10
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 15
 --- !u!114 &1641453707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58401,7 +58440,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 485526, guid: 0e3f3cad60263e54d90a151a728634f1, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 271
+      value: 270.13
       objectReference: {fileID: 0}
     - target: {fileID: 485526, guid: 0e3f3cad60263e54d90a151a728634f1, type: 2}
       propertyPath: m_LocalRotation.x
@@ -63995,6 +64034,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2344450, guid: 23952fac1cccdca479219c9c94a4f4e0, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 23952fac1cccdca479219c9c94a4f4e0, type: 2}
   m_IsPrefabParent: 0
@@ -64346,7 +64389,7 @@ GameObject:
   - component: {fileID: 2045283764}
   - component: {fileID: 2045283763}
   m_Layer: 5
-  m_Name: ingredientimage
+  m_Name: machine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -64405,7 +64448,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 5b85721d22bad1a4e8dddbc9ad2cd764, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0150d632562034a48a5ad384a79e7f30, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
