@@ -27605,10 +27605,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf5848ab6a90cdf46b18e42cd6f0c8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthSlider: {fileID: 919434927}
-  maxhealth: 100
-  healthfallright: 0
-  zombie: {fileID: 0}
 --- !u!1001 &920157255
 Prefab:
   m_ObjectHideFlags: 0
@@ -52697,10 +52693,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf5848ab6a90cdf46b18e42cd6f0c8c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthSlider: {fileID: 919434927}
-  maxhealth: 100
-  healthfallright: 0
-  zombie: {fileID: 583738464}
 --- !u!114 &1641453705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52954,7 +52946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4554680d719fda4b98fe911d8bb69cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theAnimator: {fileID: 0}
+  theAnimator: {fileID: 1646194905}
   TheDamage: 25
   Distance: 0
   MaxDistance: 5
@@ -56452,7 +56444,6 @@ GameObject:
   - component: {fileID: 1799427760}
   - component: {fileID: 1799427759}
   - component: {fileID: 1799427758}
-  - component: {fileID: 1799427757}
   m_Layer: 0
   m_Name: MinimapCamera
   m_TagString: Untagged
@@ -56460,13 +56451,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1799427757
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1799427756}
-  m_Enabled: 1
 --- !u!92 &1799427758
 Behaviour:
   m_ObjectHideFlags: 0
