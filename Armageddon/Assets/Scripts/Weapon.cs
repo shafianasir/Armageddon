@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour {
 
-    public CollectWeapons collectWeapons;
+    public WeaponCollect collectWeapons;
 
     void OnTriggerEnter(Collider other)
     {
         if (other.tag.Equals("Player"))
         {
+            FindObjectOfType<AudioManager>().Play("Collect");
             collectWeapons.WeaponCollected();
             Destroy(this.gameObject);
         }

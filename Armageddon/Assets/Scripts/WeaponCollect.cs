@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CollectWeapons : MonoBehaviour {
+public class WeaponCollect : MonoBehaviour {
 
     public GameObject weaponText;
     public GameObject weaponButton;
