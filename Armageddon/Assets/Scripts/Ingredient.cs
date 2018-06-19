@@ -11,6 +11,7 @@ public class Ingredient : MonoBehaviour
     {
         if (other.tag.Equals("Player"))
         {
+            FindObjectOfType<AudioManager>().Play("Collect");
             respawnTransform.position = transform.position;
             levelManager.IngredientCollected();
             Destroy(this.gameObject);

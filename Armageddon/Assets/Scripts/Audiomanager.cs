@@ -2,19 +2,54 @@
 using UnityEngine;
 using System;
 
-public class Audiomanager : MonoBehaviour {
+public class AudioManager : MonoBehaviour {
+    public Sound[] sounds;
+    public static AudioManager instance;
 
-	public AudioClip zombieDeath;
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+        DontDestroyOnLoad(gameObject);
+
+        foreach (Sound s in sounds)
+        {
+            s.source = gameObject.AddComponent<AudioSource>();
+            s.source.clip = s.clip;
+
+            s.source.volume = s.volume;
+            s.source.pitch = s.pitch;
+            s.source.loop = s.loop;
+        }
+    }
+
+    private void Start()
+    {
+        Play("Theme");
+    }
+    public void Play(string name)
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        s.source.Play();
+    }
+/*
+public AudioClip zombieDeath;
 
 	private AudioSource myAudioSource;
 
-	private static Audiomanager instance;
-	public static Audiomanager Instance
+	private static AudioManager instance;
+	public static AudioManager Instance
 	{
 		get
 		{
 			if (instance == null)
-				instance = GameObject.FindObjectOfType<Audiomanager>();
+				instance = GameObject.FindObjectOfType<AudioManager>();
 
 			return instance;
 		}
@@ -56,7 +91,5 @@ public void Play(string requiredName) {
 
 		//sounds s = Array.Find (sound, requiredSound => requiredSound.name == name);
 		//s.source.Play();
+        */
 	}
-
-
- 

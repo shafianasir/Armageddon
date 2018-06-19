@@ -15,6 +15,7 @@ public class Controls : MonoBehaviour
         {
             Hit();
             theAnimator.SetBool("Hit01", true);
+            FindObjectOfType<AudioManager>().Play("Hit");
         }
         if (Input.GetKeyUp(KeyCode.RightAlt))
         {
@@ -26,6 +27,7 @@ public class Controls : MonoBehaviour
         {
             Hit();
             theAnimator.SetBool("Hit02", true);
+            FindObjectOfType<AudioManager>().Play("Hit");
         }
         if (Input.GetKeyUp(KeyCode.LeftAlt))
         {

@@ -53,6 +53,8 @@ public class LevelManager : MonoBehaviour {
     void LevelCompleted()
     {
         Debug.Log("Level Completed...");
+        FindObjectOfType<AudioManager>().Play("Success");
+
         Scene scene = SceneManager.GetActiveScene();
         string l = scene.name;
         char last = l[l.Length - 1];

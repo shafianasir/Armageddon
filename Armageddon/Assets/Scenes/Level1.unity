@@ -10371,7 +10371,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 293202277}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9c77e76d584258a4383bd995cc7452eb, type: 3}
+  m_Script: {fileID: 11500000, guid: 73eca1ef04f7b4d4a99a19d59dd87937, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weaponText: {fileID: 996966845}
@@ -11452,7 +11452,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthSlider: {fileID: 323306001}
   maxhealth: 100
-  healthfallright: 0
   player: {fileID: 941319289}
 --- !u!114 &323306001
 MonoBehaviour:
@@ -44847,17 +44846,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Hit
-    clip: {fileID: 8300000, guid: 7661b6c846dac48939a7917d8eb1b51c, type: 3}
-    volume: 0.72
-    pitch: 2.73
-    loop: 0
-    source: {fileID: 0}
   - name: Theme
     clip: {fileID: 8300000, guid: a596a7329b8a241b1a052687a3672afc, type: 3}
+    volume: 0.8
+    pitch: 2
+    loop: 1
+    source: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: 7661b6c846dac48939a7917d8eb1b51c, type: 3}
     volume: 1
     pitch: 3
-    loop: 1
+    loop: 0
     source: {fileID: 0}
   - name: Collect
     clip: {fileID: 8300000, guid: 7661b6c846dac48939a7917d8eb1b51c, type: 3}
@@ -50557,7 +50556,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healthSlider: {fileID: 323306001}
   maxhealth: 100
-  healthfallright: 0
   player: {fileID: 941319289}
 --- !u!4 &1504801509 stripped
 Transform:

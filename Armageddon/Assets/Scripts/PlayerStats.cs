@@ -38,6 +38,7 @@ public class PlayerStats : MonoBehaviour {
         Lives--;
         FirstPersonController fpc = GetComponent<FirstPersonController>();
         fpc.enabled = false;
+        FindObjectOfType<AudioManager>().Play("Fail");
 
         GameObject Zombie = GameObject.FindWithTag("Zombie");
         AdvancedAI enemyScript = Zombie.GetComponent<AdvancedAI>();
