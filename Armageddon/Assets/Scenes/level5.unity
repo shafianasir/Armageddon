@@ -52916,9 +52916,9 @@ MonoBehaviour:
   target: {fileID: 945135393}
   distance: 0
   lookAtDistance: 120
-  chaseRange: 110
-  attackRange: 90
-  attackRepeatTime: 2
+  chaseRange: 100
+  attackRange: 70
+  attackRepeatTime: 5
   moveSpeed: 10
   damping: 6
   gravity: 20
