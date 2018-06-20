@@ -4,7 +4,7 @@ public class EnemyHealth : MonoBehaviour {
 
     public Animator theAnimator;
     public LevelManager levelManager;
-    public int Health = 100;
+	public float Health = 100;
 
     void ApplyDamage()
     {
@@ -18,7 +18,7 @@ public class EnemyHealth : MonoBehaviour {
             Dead();
         }
     }
-		
+
 
     void Dead()
     {
