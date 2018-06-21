@@ -17813,10 +17813,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4554680d719fda4b98fe911d8bb69cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theAnimator: {fileID: 446563416}
-  TheDamage: 25
-  Distance: 0
-  MaxDistance: 20
 --- !u!1001 &447916258
 Prefab:
   m_ObjectHideFlags: 0
@@ -36226,77 +36222,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 576859b09c2051b459c4f69f56c4caa1, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &922493440
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 922493442}
-  - component: {fileID: 922493441}
-  m_Layer: 0
-  m_Name: AudioManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &922493441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 922493440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c982cdb364532bb419552dbdc4b1369f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sounds:
-  - name: Hit
-    clip: {fileID: 8300000, guid: 7661b6c846dac48939a7917d8eb1b51c, type: 3}
-    volume: 0.72
-    pitch: 2.73
-    loop: 0
-    source: {fileID: 0}
-  - name: Theme
-    clip: {fileID: 8300000, guid: a596a7329b8a241b1a052687a3672afc, type: 3}
-    volume: 1
-    pitch: 3
-    loop: 1
-    source: {fileID: 0}
-  - name: Collect
-    clip: {fileID: 8300000, guid: 7661b6c846dac48939a7917d8eb1b51c, type: 3}
-    volume: 1
-    pitch: 3
-    loop: 0
-    source: {fileID: 0}
-  - name: Success
-    clip: {fileID: 8300000, guid: 7661b6c846dac48939a7917d8eb1b51c, type: 3}
-    volume: 1
-    pitch: 3
-    loop: 0
-    source: {fileID: 0}
-  - name: Fail
-    clip: {fileID: 8300000, guid: 7661b6c846dac48939a7917d8eb1b51c, type: 3}
-    volume: 1
-    pitch: 3
-    loop: 0
-    source: {fileID: 0}
---- !u!4 &922493442
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 922493440}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &922884636
 Prefab:
   m_ObjectHideFlags: 0
@@ -40829,7 +40754,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 941319287}
         m_MethodName: RespawnPlayer
         m_Mode: 1
         m_Arguments:
@@ -54359,6 +54284,77 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 5939af9081ecfff458c4bb38ee7ce3b6, type: 3}
+--- !u!1 &1430125566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1430125568}
+  - component: {fileID: 1430125567}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1430125567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1430125566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c982cdb364532bb419552dbdc4b1369f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: a596a7329b8a241b1a052687a3672afc, type: 3}
+    volume: 0.8
+    pitch: 2
+    loop: 1
+    source: {fileID: 0}
+  - name: Hit
+    clip: {fileID: 8300000, guid: 7661b6c846dac48939a7917d8eb1b51c, type: 3}
+    volume: 1
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: Collect
+    clip: {fileID: 8300000, guid: 7661b6c846dac48939a7917d8eb1b51c, type: 3}
+    volume: 1
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: Success
+    clip: {fileID: 8300000, guid: 7661b6c846dac48939a7917d8eb1b51c, type: 3}
+    volume: 1
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: Fail
+    clip: {fileID: 8300000, guid: 7661b6c846dac48939a7917d8eb1b51c, type: 3}
+    volume: 1
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+--- !u!4 &1430125568
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1430125566}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1431370694 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 9c7c0330743041d41bbc9b55441af5e2, type: 3}

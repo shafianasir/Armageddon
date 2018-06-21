@@ -36684,7 +36684,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 941319287}
         m_MethodName: RespawnPlayer
         m_Mode: 1
         m_Arguments:
@@ -68031,10 +68031,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4554680d719fda4b98fe911d8bb69cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theAnimator: {fileID: 2064173175}
-  TheDamage: 25
-  Distance: 0
-  MaxDistance: 20
 --- !u!95 &2064173175
 Animator:
   serializedVersion: 3
