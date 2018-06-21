@@ -13300,7 +13300,7 @@ Transform:
   m_GameObject: {fileID: 464407601}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -15.7, y: -0.26600003, z: -11.5}
-  m_LocalScale: {x: 0.50000024, y: 1, z: 1.0000005}
+  m_LocalScale: {x: 0.50000024, y: 1, z: 1.5}
   m_Children:
   - {fileID: 1303268783}
   m_Father: {fileID: 169017478}
@@ -16774,7 +16774,7 @@ Transform:
   m_GameObject: {fileID: 583738461}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9.593575, y: -0.26600003, z: -8.256134}
-  m_LocalScale: {x: 0.50000024, y: 1, z: 1}
+  m_LocalScale: {x: 0.50000024, y: 1, z: 1.5}
   m_Children:
   - {fileID: 1923279665}
   m_Father: {fileID: 169017478}
@@ -18676,7 +18676,7 @@ Transform:
   m_GameObject: {fileID: 645104095}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -42.7, y: -0.26600003, z: 6.3}
-  m_LocalScale: {x: 0.50000024, y: 1, z: 1.0000005}
+  m_LocalScale: {x: 0.50000024, y: 1, z: 1.5}
   m_Children:
   - {fileID: 1005351245}
   m_Father: {fileID: 169017478}
@@ -20152,7 +20152,7 @@ Transform:
   m_GameObject: {fileID: 677718221}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.26, y: -0.26600003, z: -27.9}
-  m_LocalScale: {x: 0.50000024, y: 1, z: 1.0000005}
+  m_LocalScale: {x: 0.50000024, y: 1, z: 1.5}
   m_Children:
   - {fileID: 940065304}
   m_Father: {fileID: 169017478}
@@ -45729,7 +45729,7 @@ Transform:
   m_GameObject: {fileID: 1480639360}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.11, y: -0.26600003, z: -28}
-  m_LocalScale: {x: 0.50000024, y: 1, z: 1.0000005}
+  m_LocalScale: {x: 0.50000024, y: 1, z: 1.5}
   m_Children:
   - {fileID: 1259117664}
   m_Father: {fileID: 169017478}
@@ -53478,7 +53478,7 @@ Transform:
   m_GameObject: {fileID: 1771224477}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.3982954, y: -0.26600003, z: -6.55062}
-  m_LocalScale: {x: 0.50000024, y: 1, z: 1}
+  m_LocalScale: {x: 0.50000024, y: 1, z: 1.5}
   m_Children:
   - {fileID: 1794547614}
   m_Father: {fileID: 169017478}
@@ -59532,7 +59532,7 @@ Transform:
   m_GameObject: {fileID: 1964613598}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -15.9, y: -0.26600003, z: -33.8}
-  m_LocalScale: {x: 0.50000024, y: 1, z: 1.0000005}
+  m_LocalScale: {x: 0.50000024, y: 1, z: 1.5}
   m_Children:
   - {fileID: 247746830}
   m_Father: {fileID: 169017478}
@@ -62481,7 +62481,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 0150d632562034a48a5ad384a79e7f30, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9a514473fefc06a4b95d09727bd7b7b0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
