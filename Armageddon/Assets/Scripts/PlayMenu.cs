@@ -9,6 +9,11 @@ public class PlayMenu : MonoBehaviour {
 
     GameObject myButton;
 
+    public void Cutscene()
+    {
+        SceneManager.LoadScene("Cutscene");
+    }
+
     public void OnClicked(Button levelButton)
     {
         Debug.Log("Loading Level" + levelButton.name);
