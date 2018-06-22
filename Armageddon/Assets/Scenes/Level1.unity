@@ -46440,19 +46440,25 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - name: Collect
-    clip: {fileID: 8300000, guid: 03518f40d1beab345a97b1cc8b99921f, type: 3}
+    clip: {fileID: 8300000, guid: 129896a663aa7624698b68a40954d0a3, type: 3}
     volume: 1
     pitch: 3
     loop: 0
     source: {fileID: 0}
   - name: Success
-    clip: {fileID: 8300000, guid: 7661b6c846dac48939a7917d8eb1b51c, type: 3}
+    clip: {fileID: 8300000, guid: 67695e8a5124eb049b269e2653ea6bb8, type: 3}
     volume: 1
     pitch: 3
     loop: 0
     source: {fileID: 0}
   - name: Fail
-    clip: {fileID: 8300000, guid: 7661b6c846dac48939a7917d8eb1b51c, type: 3}
+    clip: {fileID: 8300000, guid: 1e832f25c327d9c43bd7d57dd351936d, type: 3}
+    volume: 1
+    pitch: 3
+    loop: 0
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: b3d5626c4b111c0488daab563edb210a, type: 3}
     volume: 1
     pitch: 3
     loop: 0
