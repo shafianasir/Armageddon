@@ -17,8 +17,7 @@ public class Controls : MonoBehaviour
         }
         if (Input.GetKeyUp(KeyCode.RightAlt))
         {
-            Hit();
-            theAnimator.SetBool("Hit01", false);
+            Hit_1();
         }
 
         if (Input.GetKeyDown(KeyCode.LeftAlt))
@@ -27,8 +26,7 @@ public class Controls : MonoBehaviour
         }
         if (Input.GetKeyUp(KeyCode.LeftAlt))
         {
-            Hit();
-            theAnimator.SetBool("Hit02", false);
+            Hit_2();
         }
     }
 
@@ -38,12 +36,22 @@ public class Controls : MonoBehaviour
         theAnimator.SetBool("Hit01", true);
         FindObjectOfType<AudioManager>().Play("Hit");
     }
+    public void Hit_1()
+    {
+        Hit();
+        theAnimator.SetBool("Hit01", false);
+    }
 
     public void Hit2()
     {
         Hit();
         theAnimator.SetBool("Hit02", true);
         FindObjectOfType<AudioManager>().Play("Hit");
+    }
+    public void Hit_2()
+    {
+        Hit();
+        theAnimator.SetBool("Hit02", false);
     }
 
     public void Hit()
