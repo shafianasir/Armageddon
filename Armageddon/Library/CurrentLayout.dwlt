@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 9
+  controlID: 112
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +64,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 619
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 43
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,19 +325,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scenes
+    - Assets/sprites
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/sprites
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\shafi_000\Documents\GitHub\Armageddon\Armageddon
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 203}
-    m_SelectedIDs: fe640000
-    m_LastClickedID: 25854
-    m_ExpandedIDs: 00000000f8260000e22b00008a2c0000f2380000163a0000243b00003c3b0000fa4f0000aa550000dc620000826800007c6900000c6a0000ae6c0000b06c0000b26c0000b46c0000b66c0000b86c0000ba6c0000bc6c0000be6c0000c06c0000c26c0000c46c0000c66c0000c86c0000ca6c000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 22.837234}
+    m_SelectedIDs: 1a5c0000
+    m_LastClickedID: 23578
+    m_ExpandedIDs: 00000000f8260000e22b00008a2c0000f43800001a3a0000283b0000403b00000a500000be550000f26200009a68000094690000246a0000c26c0000c46c0000c66c0000c86c0000ca6c0000cc6c0000ce6c0000d06c0000d26c0000d46c0000d66c0000d86c0000da6c0000dc6c0000de6c000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -365,7 +365,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f8260000e22b00008a2c0000f2380000163a0000243b00003c3b0000fa4f0000a4510000aa550000c2610000dc620000826800007c6900000c6a0000ae6c0000b06c0000b26c0000b46c0000b66c0000b86c0000ba6c0000bc6c0000be6c0000c06c0000c26c0000c46c0000c66c0000c86c0000ca6c0000
+    m_ExpandedIDs: 00000000f8260000e22b00008a2c0000f43800001a3a0000283b0000403b00000a500000be550000f26200009a68000094690000246a0000c26c0000c46c0000c66c0000c86c0000ca6c0000cc6c0000ce6c0000d06c0000d26c0000d46c0000d66c0000d86c0000da6c0000dc6c0000de6c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -480,10 +480,10 @@ MonoBehaviour:
     width: 263
     height: 327
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b24d0000
-    m_LastClickedID: 0
-    m_ExpandedIDs: e8ecfeff5200ffff7235ffff9442ffff2a9cffff3eb4ffff1afcffff000000007c6f0000e66f0000ce9d0000e09d0000
+    scrollPos: {x: 0, y: 18.139542}
+    m_SelectedIDs: ce0bffff
+    m_LastClickedID: -62514
+    m_ExpandedIDs: c40bffffce0bffffd40bffffe60bffffe80bffffea0bffffec0bffffc061ffffaea2ffffb0a2ffffc0a2ffffc2a2ffffc4a2ffff12a5ffff1ae9ffff1afcffff000000004e700000b8700000ee700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -533,14 +533,14 @@ MonoBehaviour:
     width: 804
     height: 327
   m_SceneLighting: 1
-  lastFramingTime: 3253.3776677567557
+  lastFramingTime: 2204.8837904638617
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 438.8729, y: 152.4141, z: 161.375}
+    m_Target: {x: 402, y: 116.76667, z: 0}
     speed: 2
-    m_Value: {x: 438.8729, y: 152.4141, z: 161.375}
+    m_Value: {x: 402, y: 116.76667, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -567,9 +567,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 497.31387
+    m_Target: 448.11136
     speed: 2
-    m_Value: 497.31387
+    m_Value: 448.11136
   m_Ortho:
     m_Target: 1
     speed: 2
