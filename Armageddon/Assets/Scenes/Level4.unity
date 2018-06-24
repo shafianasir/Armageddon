@@ -3443,7 +3443,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &95522009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3794,7 +3794,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &104159124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5292,7 +5292,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &142724513
 Prefab:
@@ -12009,7 +12009,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &366321870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13526,7 +13526,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &412208641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15444,7 +15444,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &479132918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16840,7 +16840,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &521117965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17505,7 +17505,7 @@ Transform:
   - {fileID: 1633107856}
   - {fileID: 651508427}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &539313235 stripped
 Transform:
@@ -17953,7 +17953,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &550031137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19322,7 +19322,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &583738464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19383,12 +19383,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 583738461}
   m_LocalRotation: {x: -0, y: -0.99425024, z: -0, w: -0.10708169}
-  m_LocalPosition: {x: 223.5, y: 1, z: 277.7332}
+  m_LocalPosition: {x: -176.5, y: -154, z: 277.7332}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1923279665}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1910164005}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: -192.29399, z: 0}
 --- !u!95 &583738468
 Animator:
@@ -22592,7 +22592,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &673304391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31025,7 +31025,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &972089783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33161,7 +33161,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1034846303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33459,7 +33459,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1044976470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37925,7 +37925,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1157943673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40414,7 +40414,7 @@ Transform:
   - {fileID: 700954392}
   - {fileID: 1099177106}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1254473085
 Prefab:
@@ -43347,7 +43347,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1372526354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44649,7 +44649,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IsWalking: 0
-  m_WalkSpeed: 6
+  m_WalkSpeed: 7
   m_RunSpeed: 10
   m_RunstepLenghten: 0.7
   m_JumpSpeed: 10
@@ -46183,7 +46183,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1450018053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51247,7 +51247,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1604744577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54090,7 +54090,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1700372830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55203,7 +55203,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1733583495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57581,7 +57581,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1815240993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57801,7 +57801,7 @@ Transform:
   - {fileID: 644368627}
   - {fileID: 288931506}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1819851954 stripped
 GameObject:
@@ -59228,7 +59228,7 @@ RectTransform:
   - {fileID: 2075473244}
   - {fileID: 53141960}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -60911,8 +60911,9 @@ Transform:
   - {fileID: 1815240996}
   - {fileID: 521117968}
   - {fileID: 1934450042}
+  - {fileID: 583738467}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1910268547 stripped
 Transform:
@@ -61191,7 +61192,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 12.577453}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1913511817 stripped
 Transform:
@@ -61894,7 +61895,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1930677109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62085,7 +62086,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1934450039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65115,7 +65116,7 @@ RectTransform:
   - {fileID: 571204994}
   - {fileID: 1668544066}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -66814,7 +66815,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &2051876582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68473,7 +68474,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2112315225
 GameObject:

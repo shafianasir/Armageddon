@@ -6235,7 +6235,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &135078865
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20298,7 +20298,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &516143713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22813,7 +22813,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &583738464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23114,7 +23114,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &587025781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27192,7 +27192,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &681207992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30128,7 +30128,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &758524481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30724,7 +30724,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &774159601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32448,7 +32448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IsWalking: 0
-  m_WalkSpeed: 6
+  m_WalkSpeed: 7
   m_RunSpeed: 10
   m_RunstepLenghten: 0.7
   m_JumpSpeed: 10
@@ -35672,7 +35672,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &900349460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42288,7 +42288,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1064321234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42726,7 +42726,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1075855329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50750,7 +50750,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1326330623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52454,7 +52454,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1371967468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65539,7 +65539,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1728928558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69853,7 +69853,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1862636597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70170,7 +70170,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1864094003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74634,7 +74634,7 @@ MonoBehaviour:
   moveSpeed: 2
   damping: 6
   gravity: 20
-  TheDamage: 20
+  TheDamage: 10
 --- !u!114 &1978718169
 MonoBehaviour:
   m_ObjectHideFlags: 0

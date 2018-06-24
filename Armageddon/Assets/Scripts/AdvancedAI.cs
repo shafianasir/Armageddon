@@ -7,7 +7,6 @@ public class AdvancedAI : MonoBehaviour
     public Animator theAnimator;
     public CharacterController controller;
     public Transform target;
-	//public Audiomanager manager;
 
     public float distance;
     public float lookAtDistance = 25.0f;
@@ -19,12 +18,11 @@ public class AdvancedAI : MonoBehaviour
     public float damping = 6.0f; //rotation speed
     public float gravity = 20.0f;
     private Vector3 moveDirection = Vector3.zero;
-    public int TheDamage = 20;
+    public int TheDamage = 10;
 
 
     void Start()
     {
-	//	FindObjectOfType<Audiomanager>().Play("zombie");
         attackTime = Time.time;
     }
 
