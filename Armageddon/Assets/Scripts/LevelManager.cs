@@ -63,8 +63,8 @@ public class LevelManager : MonoBehaviour {
 
         endLevelUI.SetActive(true);
         Time.timeScale = 0f;
-        GameObject canvas = GameObject.Find("Canvas");
-        canvas.SetActive(false);
+        //GameObject canvas = GameObject.Find("Canvas");
+        //canvas.SetActive(false);
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;

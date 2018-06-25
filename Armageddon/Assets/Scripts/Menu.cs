@@ -80,4 +80,9 @@ public class Menu : MonoBehaviour {
         GameIsPaused = false;
         listImage.SetActive(false);
     }
+
+    public void ClickSound()
+    {
+        FindObjectOfType<AudioManager>().Play("Click");
+    }
 }
