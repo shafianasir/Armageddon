@@ -8879,8 +8879,8 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 276748520}
-  m_LocalRotation: {x: -0.43076727, y: -0.42244434, z: 0.6023103, w: 0.52268803}
-  m_LocalPosition: {x: 21.444765, y: -163.35634, z: 202.26202}
+  m_LocalRotation: {x: -0.22115697, y: -0.6714544, z: -0.015511424, w: 0.70710534}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2056799100}
@@ -8888,7 +8888,7 @@ Transform:
   - {fileID: 1588628680}
   m_Father: {fileID: 348922022}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -19.478, y: -89.971, z: 16.964}
+  m_LocalEulerAnglesHint: {x: -19.487, y: -89.971, z: 16.964}
 --- !u!114 &276748522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67083,7 +67083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4554680d719fda4b98fe911d8bb69cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theAnimator: {fileID: 0}
+  theAnimator: {fileID: 2064173175}
   TheDamage: 25
   Distance: 0
   MaxDistance: 5

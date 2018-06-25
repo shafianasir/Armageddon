@@ -7353,8 +7353,8 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 157360857}
-  m_LocalRotation: {x: -0.41093725, y: 0.064189844, z: 0.9081496, w: 0.047691964}
-  m_LocalPosition: {x: 114.27879, y: 46.24345, z: 267.09363}
+  m_LocalRotation: {x: -0.22110423, y: -0.6714718, z: -0.015455937, w: 0.7071066}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 701448182}
@@ -18085,7 +18085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4554680d719fda4b98fe911d8bb69cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  theAnimator: {fileID: 0}
+  theAnimator: {fileID: 446563416}
   TheDamage: 25
   Distance: 0
   MaxDistance: 5
