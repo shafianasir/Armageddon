@@ -6,34 +6,36 @@ using System;
 
 public class PlayerStats : MonoBehaviour {
 
-    public int Lives;
-    public int MaxLives = 3;
-    public int Health;
-    public int MaxHealth = 100;
+    public int Lives; //lives controller
+    public int MaxLives = 3; //no of maxlives of player
+    public int Health; //health controller
+    public int MaxHealth = 100; //count of maxhealth of player
 
-    public Respawn respawn;
-    public GameObject RetryUI;
-    public GameObject FailUI;
+    public Respawn respawn; //declare respawn position
+    public GameObject RetryUI; //retry
+    public GameObject FailUI; //fail
 
-    private void Start()
+    private void Start() //function to declare Lives and Health equal to repective variables
     {
-        Lives = MaxLives;
+        Lives = MaxLives; 
         Health = MaxHealth;
     }
 
-    void ApplyDamage()
+    void ApplyDamage() //function to retrieve damage to player
     {
-        GameObject Enemy = GameObject.FindWithTag("Zombie");
-        AdvancedAI enemyScript = Enemy.GetComponent<AdvancedAI>();
-        Health -= enemyScript.TheDamage;
+        GameObject Enemy = GameObject.FindWithTag("Zombie"); //defines a variable which checks the tag of enemy
 
-        if (Health <= 0)
+        AdvancedAI enemyScript = Enemy.GetComponent<AdvancedAI>(); //variable which retrieves enemy information from AdvancedAI
+
+        Health -= enemyScript.TheDamage; //when hit by zombie health decreases according to the damage defined in enemy script
+
+        if (Health <= 0) //when health falls to zero player dies
         {
             Dead();
         }
     }
 
-    void Dead()
+    void Dead() 
     {
         Lives--;
         FirstPersonController fpc = GetComponent<FirstPersonController>();
@@ -65,6 +67,6 @@ public class PlayerStats : MonoBehaviour {
 
     void RespawnStats()
     {
-        Health = MaxHealth;
+        Health = MaxHealth; 
     }
 }
