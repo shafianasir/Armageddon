@@ -7,6 +7,7 @@ public class ingredientlist : MonoBehaviour {
 
 	public GameObject IngredientText; //variable to activate the list of ingredients button
 
+
 	//this function defines a collision 
 	void OnTriggerEnter(Collider box){
 		
@@ -14,6 +15,8 @@ public class ingredientlist : MonoBehaviour {
 		if (box.CompareTag ("Player")) {
 			
 			IngredientText.SetActive(true); //button activates
+
+
 
 			GameObject IngredintUI = GameObject.Find("IngredientList"); //variable which finds the list image
 

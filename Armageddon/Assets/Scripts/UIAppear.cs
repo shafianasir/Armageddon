@@ -10,18 +10,20 @@ public class UIAppear : MonoBehaviour {
     public GameObject list;
     public GameObject zombies;
     public GameObject text;
-
+	[SerializeField] private Image ingimage;
 	//this function defines collision when object enters trigger
     void OnTriggerEnter(Collider box){
 		
 		//if the object that collided with box has a Player tag
 		if (box.CompareTag ("Player")) {
 			customimage.enabled = true; //image appears on screen
+			ingimage.enabled = true;
 		}
         ingredients.SetActive(true); //ingredients enable
         list.SetActive(true);        //ingredient list enables
         zombies.SetActive(true);     //zombies enable
 		text.SetActive(true);        //ingredient button text enables
+		ingimage.enabled = true;
     }
 
 	//defines collision when object has stopped touching the trigger
